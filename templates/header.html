@@ -1,0 +1,84 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Pythoncoding4u</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
+    <!-- Config -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/config.css' %}">
+    <!-- Libraries -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/libs.css' %}">
+    <!-- Template Styles -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Responsive -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/responsive.css' %}">
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'img/favicon.png' %}" sizes="32x32">
+</head>
+<body>
+    <!-- Header -->
+    <header id="bringer-header" class="is-frosted is-sticky" data-appear="fade-down" data-unload="fade-up">
+        <!-- Desktop Header -->
+        <div class="bringer-header-inner">
+            <!-- Header Logo -->
+            <div class="bringer-header-lp">
+                <a href="#" class="bringer-logo">
+                    <img src="{% static 'img/logo.png' %}" alt="bringer." width="88" height="24">
+                </a>
+            </div>
+            <!-- Main Menu -->
+            <div class="bringer-header-mp">
+                <nav class="bringer-nav">
+                    <ul class="main-menu" data-stagger-appear="fade-down" data-stagger-delay="75">
+                        <li class="current-menu-parent">
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Header Button -->
+            <div class="bringer-header-rp">
+                <a href="#" class="bringer-button">Get a FREE Quote</a>
+            </div>
+        </div>
+        <!-- Mobile Header -->
+        <div class="bringer-mobile-header-inner">
+            <a href="#" class="bringer-logo">
+                <img src="{% static 'img/logo.png' %}" alt="bringer." width="88" height="24">
+            </a>
+            <a href="#" class="bringer-mobile-menu-toggler">
+                <i class="bringer-menu-toggler-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </i>
+            </a>
+        </div>
+    </header>
+
+<!-- Header End -->
+
