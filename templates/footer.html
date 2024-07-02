@@ -10,36 +10,41 @@
                         <div class="stg-col-5 stg-tp-col-12 stg-tp-bottom-gap-l">
                             <div class="bringer-info-widget">
                                 <a href="#" class="bringer-logo footer-logo">
-                                    <img src="{% static 'img/logo.png' %}" alt="bringer." width="88" height="24">
+                                    <img src="{% static 'img/logo.png' %}" alt="bringer." width="180" height="24">
                                 </a>
                                 <div class="bringer-info-description">We are a passionate team of developers and designers who believe in the power of creativity. We help creative people create a strong online presence that shows their work and tells a story.</div>
                                 <span class="bringer-label">Follow us:</span>
                                 <ul class="bringer-socials-list" data-stagger-appear="fade-up" data-stagger-delay="75">
                                     <li>
-                                        <a href="#" target="_blank" class="bringer-socials-facebook">
+                                        <a href="https://www.instagram.com/pythoncoding4u/" target="_blank" class="bringer-socials-instagram">
                                             <i></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" class="bringer-socials-instagram">
+                                        <a href="https://www.linkedin.com/company/pythoncoding4u" target="_blank" class="bringer-socials-linkedin">
                                             <i></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank" class="bringer-socials-x">
+                                        <a href="https://www.facebook.com/people/Python-Coding/61555767339633/" target="_blank" class="bringer-socials-facebook">
                                             <i></i>
                                         </a>
                                     </li>
+
                                     <li>
-                                        <a href="#" target="_blank" class="bringer-socials-tiktok">
+                                        <a href="https://www.youtube.com/channel/UClSmhe6_co8Vbe690nds3VA" target="_blank" class="bringer-socials-youtube">
                                             <i></i>
                                         </a>
                                     </li>
+                                   
                                     <li>
-                                        <a href="#" target="_blank" class="bringer-socials-patreon">
+                                        <a href="https://x.com/pythoncoding4u" target="_blank" class="bringer-socials-x">
                                             <i></i>
                                         </a>
                                     </li>
+                                   
+                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -48,11 +53,10 @@
                                 <h6>Services</h6>
                                 <div class="bringer-menu-widget">
                                     <ul>
-                                        <li><a href="service-details.html">Branding</a></li>
-                                        <li><a href="service-details.html">Marketing</a></li>
-                                        <li><a href="service-details.html">Graphic Design</a></li>
-                                        <li><a href="service-details.html">Web Design</a></li>
-                                        <li><a href="service-details.html">Content Creation</a></li>
+                                        <li><a href="#">Web Designe</a></li>
+                                        <li><a href="#">Mobile App</a></li>
+                                        <li><a href="#">AI/ML</a></li>
+                                        <li><a href="#">Major/Minor Projects</a></li>
                                     </ul>
                                 </div>
                             </div><!-- .bringer-widget -->
@@ -62,11 +66,10 @@
                                 <h6>About Us</h6>
                                 <div class="bringer-menu-widget">
                                     <ul>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="about-me.html">About Me</a></li>
-                                        <li><a href="team-member.html">Our Team</a></li>
-                                        <li><a href="testimonials.html">Testimonials</a></li>
-                                        <li><a href="contacts.html">Get in Touch</a></li>
+                                        <li><a href="{% url 'about' %}">About Us</a></li>
+                                        <li><a href="#">Our Team</a></li>
+                                        <li><a href="#">Testimonials</a></li>
+                                        <li><a href="{% url 'contact' %}">Get in Touch</a></li>
                                     </ul>
                                 </div>
                             </div><!-- .bringer-widget -->

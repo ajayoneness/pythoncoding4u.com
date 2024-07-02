@@ -22,7 +22,7 @@
     <link type="text/css" rel="stylesheet" href="{% static 'css/responsive.css' %}">
 
     <!-- Favicon -->
-    <link rel="icon" href="{% static 'img/favicon.png' %}" sizes="32x32">
+    <link rel="icon" href="{% static 'img/favicon.ico' %}" sizes="32x32">
 </head>
 <body>
     <!-- Header -->
@@ -31,31 +31,31 @@
         <div class="bringer-header-inner">
             <!-- Header Logo -->
             <div class="bringer-header-lp">
-                <a href="#" class="bringer-logo">
-                    <img src="{% static 'img/logo.png' %}" alt="bringer." width="88" height="24">
+                <a href="{% url 'home' %}" class="bringer-logo">
+                    <img src="{% static 'img/logo.png' %}" alt="bringer." width="180" height="24">
                 </a>
             </div>
             <!-- Main Menu -->
             <div class="bringer-header-mp">
                 <nav class="bringer-nav">
                     <ul class="main-menu" data-stagger-appear="fade-down" data-stagger-delay="75">
-                        <li class="current-menu-parent">
-                            <a href="#">Home</a>
+                        <li id="home" class="current-menu-parent">
+                            <a href="{% url 'home' %}">Home</a>
                         </li>
-                        <li>
-                            <a href="#">About Us</a>
+                        <li id="about">
+                            <a href="{% url 'about' %}">About Us</a>
                         </li>
-                        <li>
+                        <li id="project">
                             <a href="#">Projects</a>
                         </li>
-                        <li>
+                        <li id="service">
                             <a href="#">Services</a>
                         </li>
-                        <li>
+                        <li id="blog">
                             <a href="#">Blogs</a>
                         </li>
-                        <li>
-                            <a href="#">Contacts</a>
+                        <li id="contact">
+                            <a href="{% url 'contact' %}">Contacts</a>
                         </li>
                     </ul>
                 </nav>
@@ -68,7 +68,7 @@
         <!-- Mobile Header -->
         <div class="bringer-mobile-header-inner">
             <a href="#" class="bringer-logo">
-                <img src="{% static 'img/logo.png' %}" alt="bringer." width="88" height="24">
+                <img src="{% static 'img/logo.png' %}" alt="bringer." width="160" height="24">
             </a>
             <a href="#" class="bringer-mobile-menu-toggler">
                 <i class="bringer-menu-toggler-icon">
