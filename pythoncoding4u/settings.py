@@ -5,11 +5,6 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-9sz55stx(x-6n+kccd9o03sfi-a-r3aubcu%y9m#!hc(u3%6oj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -27,10 +22,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blogs',
     'main',
     'projects',
-    'services'
+    'services',
+    'blogs',
 ]
 
 MIDDLEWARE = [
