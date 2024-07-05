@@ -16,7 +16,8 @@ class ServiceProcess(models.Model):
 
 # Model for Service
 class Service(models.Model):
-    meta_title = models.CharField(max_length=255)
+    service_name = models.CharField(max_length=255)
+    meta_title = models.CharField(max_length=555)
     meta_description = models.TextField()
     long_description = models.TextField()
     process = models.ManyToManyField(ServiceProcess)
