@@ -1,9 +1,7 @@
 from django.db import models
 
-# Create your models here.
 
 
-# Model for Project Category
 class ProjectCategory(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
@@ -17,10 +15,12 @@ class ProjectCategory(models.Model):
 class ProjectFeatures(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
-    
+
     def __str__(self):
         return self.title
     
+
+
 class ProjectApplications(models.Model):
     title = models.CharField(max_length=255)
     description = models.TextField()
@@ -30,7 +30,7 @@ class ProjectApplications(models.Model):
     
 
 
-# Model for Project
+
 class Project(models.Model):
     category = models.ForeignKey(ProjectCategory, on_delete=models.CASCADE, related_name='projects')
     meta_title = models.CharField(max_length=255)

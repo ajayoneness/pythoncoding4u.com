@@ -9,9 +9,9 @@
                 <div class="stg-row stg-large-gap stg-tp-normal-gap stg-tp-column-reverse">
                     <div class="stg-col-6 stg-vertical-space-between" data-unload="fade-left">
                         <div class="stg-tp-bottom-gap">
-                            <h1 class="bringer-page-title" data-split-appear="fade-up">Ignite Your Brand Identity</h1>
-                            <p class="bringer-large-text" data-appear="fade-right" data-delay="100">Welcome to the spark that ignites your brand's revolution. Our branding services aren't just about logos and colours; they're about crafting a powerful story, a visual identity, and a voice that resonates deeply with your audience and sets you apart in the digital landscape.</p>
-                            <p class="bringer-large-text bringer-tp-normal-text" data-appear="fade-right" data-delay="200">We believe that a strong brand is the foundation for everything you do, the guiding light that attracts customers, builds loyalty, and growth.</p>
+                            <h1 class="bringer-page-title" data-split-appear="fade-up">{{services.service_name}}</h1>
+                            <p class="bringer-large-text" data-appear="fade-right" data-delay="100">{{services.long_description | safe}}</p>
+                           
                         </div>
                         <div class="align-right" data-appear="fade-right">
                             <a href="pricing.html" class="bringer-icon-link">
@@ -21,7 +21,7 @@
                                         <br>
                                         Brand's potential
                                     </h6>
-                                    <span class="bringer-label">Discover Price List</span>
+                                    <span class="bringer-label">Contact Now</span>
                                 </div>
                                 <div class="bringer-icon-wrap">
                                     <i class="bringer-icon bringer-icon-explore"></i>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="stg-col-6 stg-tp-bottom-gap-l" data-appear="fade-left" data-unload="fade-right">
-                        <img class="bringer-lazy" src="img/null.png" data-src="img/inner-pages/service-details.jpg" alt="Brainding" width="800" height="1200">
+                        <img class="bringer-lazy" src="{{services.image.url}}" data-src="{{services.image.url}}" alt="Brainding" width="800" height="1200">
                     </div>
                 </div>
             </section>
@@ -40,77 +40,36 @@
                 <!-- Section Title -->
                 <div class="stg-row stg-bottom-gap-l">
                     <div class="stg-col-7">
-                        <h2 data-split-appear="fade-up" data-unload="fade-up">Here's how we take your brand from spark to wildfire:</h2>
+                        <h2 data-split-appear="fade-up" data-unload="fade-up">The Procedure We Follow on <span style="color:#3577AE">{{services.service_name}}</span></h2>
                     </div>
                     <div class="stg-col-5"></div>
                 </div>
+
+                {% for i in services.process.all %}
+
                 <!-- Details 01 Row -->
-                <div class="stg-row stg-bottom-gap stg-valign-middle stg-m-bottom-gap-l" data-unload="fade-left">
-                    <div class="stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-right">
+                        {{i.top_tag | safe}}
                         <div class="bringer-parallax-media">
-                            <img class="bringer-lazy" src="img/null.png" data-src="img/inner-pages/service-details01.jpg" alt="Branding 01" width="960" height="960">
+                            <img class="bringer-lazy" src="{{i.image.url}}" data-src="{{i.image.url}}" alt="Branding 01" width="960" height="960">
                         </div>
                     </div>
                     <div class="stg-col-6 stg-tp-col-6" data-appear="fade-right" data-delay="100">
-                        <span class="bringer-label">Branding 01</span>
-                        <h4>Unveiling Your Essence</h4>
-                        <p>Here is where the journey begins. We begin by getting to know you intimately. We delve into your vision, values, target audience, and competitive landscape. Through workshops, interviews, and deep dives into your industry, we uncover the unique DNA of your brand.</p>
+                        <span class="bringer-label">Setp {{i.number}}</span>
+                        <h4>{{i.title}}</h4>
+                        <p>{{i.description}}</p>
                     </div>
+
+                    {{i.bottom_tag | safe}}
+                    
                 </div>
-                <!-- Details 02 Row -->
-                <div class="stg-row stg-bottom-gap stg-valign-middle stg-tp-row-reverse stg-m-bottom-gap-l" data-unload="fade-right">
-                    <div class="stg-col-3 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-left">
-                        <div class="bringer-parallax-media">
-                            <img class="bringer-lazy" src="img/null.png" data-src="img/inner-pages/service-details02.jpg" alt="Branding 02" width="960" height="960">
-                        </div>
-                    </div>
-                    <div class="stg-col-6 stg-tp-col-6" data-appear="fade-left" data-delay="100">
-                        <span class="bringer-label">Branding 02</span>
-                        <h4>Crafting Your Narrative</h4>
-                        <p>Once we understand your core, we weave it into a captivating story. We define your brand personality, your values, and the message you want to share with the world. This becomes the heart and soul of your brand, the thread that connects everything you do.</p>
-                    </div>
-                    <div class="stg-col-3"><!-- Empty Column --></div>
-                </div>
-                <!-- Details 03 Row -->
-                <div class="stg-row stg-bottom-gap stg-valign-middle stg-m-bottom-gap-l" data-unload="fade-left">
-                    <div class="stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-right">
-                        <div class="bringer-parallax-media">
-                            <img class="bringer-lazy" src="img/null.png" data-src="img/inner-pages/service-details03.jpg" alt="Branding 03" width="960" height="960">
-                        </div>
-                    </div>
-                    <div class="stg-col-6 stg-tp-col-6" data-appear="fade-right" data-delay="100">
-                        <span class="bringer-label">Branding 03</span>
-                        <h4>Visualizing Your Fire</h4>
-                        <p>With your story as our guide, we translate it into a stunning visual identity. We design a logo that embodies your essence, a color palette that evokes emotions, and typography that reflects your voice. Every visual element tells your story, leaving an impression on your audience.</p>
-                    </div>
-                </div>
-                <!-- Details 04 Row -->
-                <div class="stg-row stg-bottom-gap stg-valign-middle stg-tp-row-reverse stg-m-bottom-gap-l" data-unload="fade-right">
-                    <div class="stg-col-3 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-left">
-                        <div class="bringer-parallax-media">
-                            <img class="bringer-lazy" src="img/null.png" data-src="img/inner-pages/service-details04.jpg" alt="Branding 04" width="960" height="960">
-                        </div>
-                    </div>
-                    <div class="stg-col-6 stg-tp-col-6" data-appear="fade-left" data-delay="100">
-                        <span class="bringer-label">Branding 04</span>
-                        <h4>Shaping Your Voice</h4>
-                        <p>Your brand doesn't just have a look; it has a voice. We craft messaging that resonates with your target audience, sparking conversations and building trust. From website copy to social media captions, we ensure your voice is consistent, authentic, truly yours.</p>
-                    </div>
-                    <div class="stg-col-3"><!-- Empty Column --></div>
-                </div>
-                <!-- Details 05 Row -->
-                <div class="stg-row stg-valign-middle" data-unload="fade-left">
-                    <div class="stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap" data-appear="fade-right">
-                        <div class="bringer-parallax-media">
-                            <img class="bringer-lazy" src="img/null.png" data-src="img/inner-pages/service-details05.jpg" alt="Branding 05" width="960" height="960">
-                        </div>
-                    </div>
-                    <div class="stg-col-6 stg-tp-col-6" data-appear="fade-right" data-delay="100">
-                        <span class="bringer-label">Branding 05</span>
-                        <h4>Building Your Brand Blueprint</h4>
-                        <p>We don't leave you with just a logo and a tagline. We create a comprehensive brand guide, your roadmap for successful brand implementation. This guide outlines your brand voice, visual identity, messaging guidelines, and even tone of voice, ensuring everyone who interacts with your brand can carry the torch.</p>
-                    </div>
-                </div>
+
+
+
+
+                {% endfor %}
+
+             
+                
             </section>
 
             <!-- Section: Offer -->

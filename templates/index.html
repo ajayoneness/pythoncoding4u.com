@@ -10,10 +10,10 @@
                     <!-- Main Row -->
                     <div class="bringer-hero-title-wrap">
                         <!-- Title -->
-                        <h1 class="bringer-page-title" data-split-appear="fade-up" data-split-delay="100" data-split-by="line" data-split-unload="fade-up">Bring your creative ideas into Reality!</h1>
+                        <h1 class="bringer-page-title" data-split-appear="fade-up" data-split-delay="100" data-split-by="line" data-split-unload="fade-up">Bring your creative ideas into Reality! with Pythoncoding4u</h1>
                         <!-- Additional Media -->
                         <div class="stg-m-hide" data-appear="fade-left" data-unload="fade-right">
-                            <img class="bringer-lazy" src="{% static 'img/null.png' %}" data-src="{% static 'img/home/home03-hero1.jpg' %}" alt="Bringer" width="550" height="316">
+                            <img class="bringer-lazy" src="{% static 'img/pythoncoding.jpg' %}" data-src="{% static 'img/pythoncoding.jpg' %}" alt="Bringer" width="550" height="316">
                         </div>
                     </div>
 
@@ -29,22 +29,23 @@
                                 We help creative agencies, designers, and other creative people showcase their work and connect with clients.
                             </div>
                         </div>
+
                         <!-- Tags List -->
                         <ul class="bringer-tags-list" data-unload="fade-left" data-delay="150">
                             <li data-appear="fade-up" data-delay="400">
-                                <a href="#">Graphic Design</a>
+                                <a href="/services/web-development/">Web Development</a>
                             </li>
                             <li data-appear="fade-up" data-delay="450">
-                                <a href="#">Content Creation</a>
+                                <a href="#">E-Commerce Development</a>
                             </li>
                             <li data-appear="fade-up" data-delay="200">
-                                <a href="#">Branding</a>
+                                <a href="#">AI/ML Projects</a>
                             </li>
                             <li data-appear="fade-up" data-delay="250">
-                                <a href="#">Marketing</a>
+                                <a href="#">Mobile App Development</a>
                             </li>
                             <li data-appear="fade-up" data-delay="300">
-                                <a href="#">Web Design</a>
+                                <a href="#">Major/Minor Projects</a>
                             </li>
                         </ul>
                     </div>
@@ -56,16 +57,18 @@
                 <div class="stg-row stg-large-gap stg-m-normal-gap">
                     <div class="stg-col-6 stg-tp-bottom-gap-l stg-m-bottom-gap">
                         <div class="bringer-parallax-media" data-appear="fade-right" data-unload="fade-left">
-                            <img src="img/null.png" data-src="img/home/about01.jpg" alt="About Us" class="bringer-lazy" width="960" height="960">
+                            <img src="{% static '/img/about.jpg' %}" data-src="{% static '/img/about.jpg' %}" alt="About Us" class="bringer-lazy" width="960" height="960">
                         </div>
                     </div>
                     <div class="stg-col-6 stg-vertical-space-between" data-appear="fade-left" data-unload="fade-right">
                         <div>
-                            <h3>We are a passionate team of designers and developers.</h3>
+                            <h3>About PythonCoding4U</h3>
                             <p class="bringer-large-text">We are a passionate team of designers and developers who believe in the power of creativity.</p>
-                            <p>We are a team of passionate and experienced designers, developers, and marketers who specialize in helping businesses of all sizes achieve their goals. We believe that creativity is the key to success, and we are committed to helping our clients unleash their full potential.</p>
+                            <p>PythonCoding4U is a premier technology solutions provider dedicated to helping businesses and individuals achieve their digital goals. Our expertise spans web development, e-commerce solutions, artificial intelligence, machine learning projects, and mobile app development. We also offer specialized services for college students, assisting them with their minor and major projects. Our team of skilled professionals brings extensive experience and technical prowess to each project, ensuring we exceed our clients' expectations.</p>
+                            <p>We believe in a client-centric approach, working closely with our clients to understand their unique needs and challenges. From initial consultation and strategic planning to development, deployment, and ongoing maintenance, we provide end-to-end support. Quality, innovation, and customer satisfaction are the cornerstones of our business. Join the growing number of businesses and individuals who trust PythonCoding4U for their digital needs. Let us help you harness technology to achieve your goals and transform your ideas into reality.</p>
+
                         </div>
-                        <a href="about-us.html" class="bringer-icon-link" data-appear="fade-left">
+                        <a href="{% url 'about' %}" class="bringer-icon-link" data-appear="fade-left">
                             <div class="bringer-icon-wrap">
                                 <i class="bringer-icon bringer-icon-explore"></i>
                             </div>
@@ -90,63 +93,15 @@
                             <h2>Our Services</h2>
                             <p class="bringer-large-text">We offer a wide range of creative services to help businesses of all sizes achieve their goals.</p>
                             <div class="align-right">
-                                <a href="services.html" class="bringer-arrow-link">Discover all Services</a>
+                                <a href="{% url 'services' %}" class="bringer-arrow-link">Discover all Services</a>
                             </div>
                         </div>
                     </div>
                     <div class="stg-col-8">
-                        <div class="bringer-grid-2cols" data-stagger-appear="zoom-in" data-stagger-unload="zoom-out" data-threshold="0.5" data-stagger-delay="150">
+                        <div id="service-view" class="bringer-grid-2cols" data-stagger-appear="zoom-in" data-stagger-unload="zoom-out" data-threshold="0.5" data-stagger-delay="150">
                             <!-- Price Card -->
-                            <div class="bringer-price-card-item bringer-block">
-                                <div class="bringer-price-card-title">
-                                    <h5>Branding<span class="bringer-accent">.</span></h5>
-                                    <p>We weave visual stories and craft strategic messaging that resonate at heartstrings and build unwavering trust.</p>
-                                </div>
-                                <div class="bringer-price-card-footer">
-                                    <span class="bringer-label">Starting from</span>
-                                    <div class="bringer-price">$199.<sup>99</sup></div>
-                                    <a href="pricing.html" class="bringer-button is-fullwidth">Discover Details</a>
-                                </div>
-                            </div><!-- .bringer-block -->
-                                                        
-                            <!-- Price Card -->
-                            <div class="bringer-price-card-item bringer-block">
-                                <div class="bringer-price-card-title">
-                                    <h5>Marketing<span class="bringer-accent">.</span></h5>
-                                    <p>We design data-driven campaigns that crackle with energy, ignite engagement like wildfire, and increase conversions.</p>
-                                </div>
-                                <div class="bringer-price-card-footer">
-                                    <span class="bringer-label">Starting from</span>
-                                    <div class="bringer-price">$99.<sup>99</sup></div>
-                                    <a href="pricing.html" class="bringer-button is-fullwidth">Discover Details</a>
-                                </div>
-                            </div><!-- .bringer-block -->
-                                                        
-                            <!-- Price Card -->
-                            <div class="bringer-price-card-item bringer-block">
-                                <div class="bringer-price-card-title">
-                                    <h5>Graphic Design<span class="bringer-accent">.</span></h5>
-                                    <p>We craft visual masterpieces that sing your brand's story in vibrant colors and captivating shapes.</p>
-                                </div>
-                                <div class="bringer-price-card-footer">
-                                    <span class="bringer-label">Starting from</span>
-                                    <div class="bringer-price">$169.<sup>99</sup></div>
-                                    <a href="pricing.html" class="bringer-button is-fullwidth">Discover Details</a>
-                                </div>
-                            </div><!-- .bringer-block -->
-                                                        
-                            <!-- Price Card -->
-                            <div class="bringer-price-card-item bringer-block">
-                                <div class="bringer-price-card-title">
-                                    <h5>Content creation<span class="bringer-accent">.</span></h5>
-                                    <p>We weave compelling narratives into blog posts, website copy, and social media content that resonate with your audience.</p>
-                                </div>
-                                <div class="bringer-price-card-footer">
-                                    <span class="bringer-label">Starting from</span>
-                                    <div class="bringer-price">$149.<sup>99</sup></div>
-                                    <a href="pricing.html" class="bringer-button is-fullwidth">Discover Details</a>
-                                </div>
-                            </div><!-- .bringer-block -->
+
+
                         </div><!-- .bringer-grid -->
                     </div>
                 </div>
@@ -158,19 +113,19 @@
                     <div class="bringer-marquee-inner">
                         <ul class="bringer-marquee-list">
                             <li>
-                                <h2>Branding</h2>
+                                <h2>Web Development</h2>
                             </li>
                             <li>
-                                <h2>Marketing</h2>
+                                <h2>E-Commerce Development</h2>
                             </li> 
                             <li>
-                                <h2>Graphic Design</h2>
+                                <h2>AI/ML Projects</h2>
                             </li>
                             <li>
-                                <h2>Web Design</h2>
+                                <h2>Mobile App Development</h2>
                             </li>
                             <li>
-                                <h2>UX/UI</h2>
+                                <h2>Major/Minor Projects</h2>
                             </li>
                         </ul>
                     </div><!-- .bringer-marquee-inner -->
@@ -182,10 +137,10 @@
                 <div class="stg-row stg-large-gap">
                     <div class="stg-col-6 stg-tp-bottom-gap-l" data-unload="fade-left">
                         <div class="bringer-sticky-block">
-                            <h2>Why Choose Us</h2>
+                            <h2>Why Choose PythonCoding4U?</h2>
                             <p class="bringer-large-text">We are a passionate team of designers and developers who believe in the power of creativity. We help creative professionals create a strong online presence that showcases their work and tells their story.</p>
                             <div class="align-right">
-                                <a href="about-us.html" class="bringer-arrow-link">Learn More About Us</a>
+                                <a href="{% url 'about' %}" class="bringer-arrow-link">Learn More About Us</a>
                             </div>
                         </div>
                     </div>
@@ -193,27 +148,36 @@
                         <div class="bringer-grid-1col stg-normal-gap" data-stagger-appear="zoom-in" data-stagger-unload="zoom-out" data-threshold="0.5" data-stagger-delay="150">
                             <!-- Card Item -->
                             <div class="bringer-block">
-                                <h4>We don't just design, we <span class="bringer-accent">unleash creative</span> firestorms<span class="bringer-accent">.</span></h4>
-                                <p>Tired of bland marketing and cookie-cutter websites? We infuse your brand with bold ideas and strategic brilliance, igniting campaigns that capture hearts and drive tangible results. Forget sparklers, we're here to light galaxies on fire.</p>
+                                <h4>Expertise and <span class="bringer-accent">Experience</span> <span class="bringer-accent">.</span></h4>
+                                <p>Our team of skilled professionals excels in web development, e-commerce solutions, AI/ML projects, mobile app development, and student project assistance. We stay updated with the latest industry trends to deliver top-notch solutions.</p>
                             </div><!-- .bringer-block -->
                                                         
                             <!-- Card Item -->
                             <div class="bringer-block">
-                                <h4>We <span class="bringer-accent">fuel creativity</span> with data, guide passion with precision<span class="bringer-accent">.</span></h4>
-                                <p>We're not just artistic dreamers, we're strategic alchemists. We blend data-driven insights with unbridled passion, ensuring your campaigns reach the right audience, hit the right chords, and deliver measurable results. Because passion without direction is a beautiful mess.</p>
+                                <h4>Comprehensive <span class="bringer-accent">Services</span><span class="bringer-accent">.</span></h4>
+                                <p>We offer a wide range of services, including websites, e-commerce platforms, mobile apps, and AI/ML projects. We also support college students with their minor and major projects.</p>
                             </div><!-- .bringer-block -->
                                                         
                             <!-- Card Item -->
                             <div class="bringer-block">
-                                <h4>We craft <span class="bringer-accent">emotional connections</span>, not just visuals and copy<span class="bringer-accent">.</span></h4>
-                                <p>We delve deeper than pixels and prose. We understand the human heart, the language of emotions. We weave stories that resonate, visuals that linger in minds, and content that sparks conversations. Because true connection is the foundation of brand loyalty.</p>
+                                <h4>Customized <span class="bringer-accent">Solutions </span><span class="bringer-accent">.</span></h4>
+                                <p>We tailor our solutions to meet your specific needs, ensuring every project is unique and personalized.</p>
                             </div><!-- .bringer-block -->
                                                         
                             <!-- Card Item -->
                             <div class="bringer-block">
-                                <h4>We don't just work with you, we become your <span class="bringer-accent">creative champions</span><span class="bringer-accent">.</span></h4>
-                                <p>We don't see clients, we see collaborators. We believe in building partnerships, in understanding your vision, and becoming an extension of your team. Your goals are our canvas, your success our masterpiece. We paint your dreams into reality, together.</p>
+                                <h4>Quality <span class="bringer-accent">Assurance</span><span class="bringer-accent">.</span></h4>
+                                <p>We adhere to best practices and rigorous quality assurance to deliver projects that meet the highest standards.</p>
                             </div><!-- .bringer-block -->
+
+                            <!-- Card Item -->
+                            <div class="bringer-block">
+                                <h4>Timely <span class="bringer-accent">Delivery</span><span class="bringer-accent">.</span></h4>
+                                <p>Our efficient project management ensures timely completion of your project without compromising on quality.</p>
+                            </div><!-- .bringer-block -->
+
+
+
                         </div><!-- .bringer-grid -->
                     </div>
                 </div>
@@ -224,22 +188,22 @@
                 <div class="bringer-grid-4cols bringer-tp-grid-2cols bringer-m-grid-2cols stg-m-small-gap" data-stagger-appear="zoom-in" data-stagger-unload="zoom-out">
                     <!-- Counter Item -->
                     <div class="bringer-counter bringer-block" data-delay="3000">
-                        <div class="bringer-counter-number" data-suffix="K+">8</div>
+                        <div class="bringer-counter-number" data-suffix="+">100</div>
                         <div class="bringer-counter-label">Happy Customers</div>
                     </div><!-- .bringer-counter -->
                     <!-- Counter Item -->
                     <div class="bringer-counter bringer-block" data-delay="3000">
-                        <div class="bringer-counter-number" data-suffix="">420</div>
+                        <div class="bringer-counter-number" data-suffix="+">30</div>
                         <div class="bringer-counter-label">Complated Projects</div>
                     </div><!-- .bringer-counter -->
                     <!-- Counter Item -->
                     <div class="bringer-counter bringer-block" data-delay="3000">
-                        <div class="bringer-counter-number" data-suffix="">24</div>
+                        <div class="bringer-counter-number" data-suffix="">5</div>
                         <div class="bringer-counter-label">Awwwards Won</div>
                     </div><!-- .bringer-counter -->
                     <!-- Counter Item -->
                     <div class="bringer-counter bringer-block is-accented" data-delay="3000">
-                        <div class="bringer-counter-number" data-suffix="+">12</div>
+                        <div class="bringer-counter-number" data-suffix="+">5</div>
                         <div class="bringer-counter-label">Years of Experience</div>
                     </div><!-- .bringer-counter -->
                 </div><!-- .bringer-grid -->
@@ -250,10 +214,10 @@
                 <div class="stg-row stg-large-gap">
                     <div class="stg-col-6 stg-tp-bottom-gap-l" data-unload="fade-left">
                         <div class="bringer-sticky-block">
-                            <h2>Our Portfolio</h2>
+                            <h2>Our Projects</h2>
                             <p class="bringer-large-text">We are proud of our work, and we are always looking for new challenges. Take a look at some of our recent creative portfolio works.</p>
                             <div class="align-right">
-                                <a href="portfolio-column.html" class="bringer-arrow-link">Explore Our Projects</a>
+                                <a href="{% url 'projects' %}" class="bringer-arrow-link">Explore Our Projects</a>
                             </div>
                         </div>
                     </div>
@@ -261,67 +225,7 @@
                         <div id="project-container" class="bringer-grid-1col bringer-tp-grid-2cols stg-normal-gap bringer-parallax-media" data-stagger-appear="fade-left" data-stagger-unload="fade-right" data-threshold="0.25" data-stagger-delay="100">
 
 
-                            <!-- Card Item -->
-                            <div class="bringer-block bringer-portfolio-card">
-                                <div class="bringer-portfolio-card-image">
-                                    <img class="bringer-lazy" src="image-one" data-src="image-one" alt="" width="1200" height="1200">
-                                </div>
-                                <div class="bringer-portfolio-card-footer">
-                                    <div class="bringer-portfolio-card-title">
-                                        <span class="bringer-meta">category</span>
-                                        <h6>meta_title</h6>
-                                    </div>
-                                    <span class="bringer-icon bringer-icon-explore"></span>
-                                </div>
-                                <a href="projects/slug"></a>
-                            </div><!-- .bringer-portfolio-card -->
-                                                        
-                            <!-- Card Item -->
-                            <div class="bringer-block bringer-portfolio-card">
-                                <div class="bringer-portfolio-card-image">
-                                    <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio02.jpg" alt="" width="1200" height="1200">
-                                </div>
-                                <div class="bringer-portfolio-card-footer">
-                                    <div class="bringer-portfolio-card-title">
-                                        <span class="bringer-meta">Advertising</span>
-                                        <h6>Cookie Dough</h6>
-                                    </div>
-                                    <span class="bringer-icon bringer-icon-explore"></span>
-                                </div>
-                                <a href="portfolio-post02.html"></a>
-                            </div><!-- .bringer-portfolio-card -->
-                                                        
-                            <!-- Card Item -->
-                            <div class="bringer-block bringer-portfolio-card">
-                                <div class="bringer-portfolio-card-image">
-                                    <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio03.jpg" alt="" width="1200" height="1200">
-                                </div>
-                                <div class="bringer-portfolio-card-footer">
-                                    <div class="bringer-portfolio-card-title">
-                                        <span class="bringer-meta">Marketing</span>
-                                        <h6>Gaming Power</h6>
-                                    </div>
-                                    <span class="bringer-icon bringer-icon-explore"></span>
-                                </div>
-                                <a href="portfolio-post03.html"></a>
-                            </div><!-- .bringer-portfolio-card -->
-                                                        
-                            <!-- Card Item -->
-                            <div class="bringer-block bringer-portfolio-card">
-                                <div class="bringer-portfolio-card-image">
-                                    <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio04.jpg" alt="" width="1200" height="1200">
-                                </div>
-                                <div class="bringer-portfolio-card-footer">
-                                    <div class="bringer-portfolio-card-title">
-                                        <span class="bringer-meta">Advertising</span>
-                                        <h6>Riot Energy</h6>
-                                    </div>
-                                    <span class="bringer-icon bringer-icon-explore"></span>
-                                </div>
-                                <a href="portfolio-post04.html"></a>
-                            </div><!-- .bringer-portfolio-card -->
-
-
+                         
 
                         </div><!-- .bringer-grid -->
                     </div>
@@ -339,7 +243,7 @@
                             <h2>What Clients Say</h2>
                             <p class="bringer-large-text">Here are some of the most inspiring reviews from our clients. Your opinion is very important to us ’cause we have always try to evolve and improve in the professional field and work on mistakes.</p>
                             <div class="align-right">
-                                <a href="testimonials.html" class="bringer-arrow-link">Read all Testimonials</a>
+                                <a href="#" class="bringer-arrow-link">Read all Testimonials</a>
                             </div>
                         </div>
                     </div>
@@ -358,11 +262,11 @@
             <!-- Section: CTA -->
             <section data-padding="bottom">
                 <div class="bringer-masked-cta bringer-masked-block" data-unload="fade-down">
-                    <form action="https://demo.shadow-themes.com/html/bringer/mail-short.php" method="post" data-fill-error="Please, fill out the form." class="bringer-contact-form is-short bringer-masked-media" data-appear="fade-up">
+                    <form  method="post" data-fill-error="Please, fill out the form." class="bringer-contact-form is-short bringer-masked-media" data-appear="fade-up">
                         <div class="bringer-form-content bringer-cta-form">
                             <div class="bringer-cta-form-content" data-appear="fade-up" data-delay="100">
-                                <div class="bringer-cta-title">Ready to set your Brand ablaze?</div>
-                                <input type="email" id="subscribe_email" name="subscribe_email" placeholder="email@example.com" required>
+                                <div class="bringer-cta-title">Ready to Connect with PythonCoding4U?</div>
+                                <input type="text" id="subscribe_email" name="subscribe_email" placeholder="+91 8603862290" required>
                             </div>
                             <div class="bringer-cta-form-button" data-appear="fade-up" data-delay="200">
                                 <button type="submit">
@@ -388,6 +292,50 @@
 
         <script>
             $(document).ready(function() {
+
+                // URL of the service list API
+                var apiUrl = "{% url 'serviceapi' %}";
+        
+                // Function to create the service list item HTML
+                function createServiceListItem(service) {
+                    return `
+
+                        <div class="bringer-price-card-item bringer-block">
+                                <div class="bringer-price-card-title">
+                                    <h5>${service.service_name}<span class="bringer-accent">.</span></h5>
+                                    <p>${service.meta_description}</p>
+                                </div>
+                                <div class="bringer-price-card-footer">
+                                    <a href="/services/${service.slug}" class="bringer-button is-fullwidth">Discover Details</a>
+                                </div>
+                            </div>
+                    `;
+                }
+
+                // AJAX call to fetch the service data
+                $.ajax({
+                    url: apiUrl,
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(services) {
+                        var serviceList = $('#service-view');
+                        serviceList.empty(); // Clear any existing content
+                        services.forEach(function(service) {
+                            serviceList.append(createServiceListItem(service));
+                        });
+                    },
+                    error: function(xhr, status, error) {
+                        console.error('Failed to fetch services:', error);
+                    }
+                });
+
+
+
+
+
+
+
+
 
                 //project get request ajax call
 
