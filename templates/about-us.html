@@ -10,7 +10,7 @@
                 <div class="stg-row">
                     <div class="stg-col-6 stg-offset-3 align-center stg-tp-col-10 stg-tp-offset-1">
                         <h1 class="bringer-page-title" data-appear="fade-up" data-unload="fade-up">About Us</h1>
-                        <p class="bringer-large-text" data-split-appear="fade-up" data-split-unload="fade-up" data-delay="100">We are a passionate team of designers and developers Who believe 👽 in the power ⚡ of creativity.</p>
+                        <p class="bringer-large-text" data-split-appear="fade-up" data-split-unload="fade-up" data-delay="100">We are a passionate team of developers and innovators who believe in the power of technology to transform ideas into reality.</p>
                     </div>
                 </div>
             </section>
@@ -18,13 +18,13 @@
             <!-- Section: About Us -->
             <section class="divider-bottom">
                 <div class="bringer-parallax-media stg-bottom-gap-l" data-appear="fade-up" data-delay="200" data-unload="fade-up">
-                    <img class="bringer-lazy" src="img/null.png" data-src="img/inner-pages/about-us.jpg" alt="About Bringer" width="1920" height="960">
+                    <img class="bringer-lazy" src="{% static '/img/aboutmain.jpg' %}" data-src="{% static '/img/aboutmain.jpg' %}" alt="About Bringer" width="1920" height="960">
                 </div>
                 <div class="stg-row stg-large-gap stg-tp-normal-gap">
                     <div class="stg-col-6 stg-vertical-space-between stg-tp-bottom-gap-l" data-unload="fade-left">
-                        <h2 data-split-appear="fade-up">Igniting brands that spark movements.</h2>
+                        <h2 data-split-appear="fade-up">About PythonCoding4U</h2>
                         <div class="align-right" data-appear="fade-right">
-                            <a href="portfolio-infinite-list.html" class="bringer-icon-link">
+                            <a href="{% url 'projects' %}" class="bringer-icon-link">
                                 <div class="bringer-icon-link-content">
                                     <h6>
                                         Unleash your
@@ -41,16 +41,17 @@
                     </div>
                     <div class="stg-col-6" data-appear="fade-left" data-unload="fade-right" data-delay="100">
                         <p class="bringer-large-text">We help creative agencies, designers, and other creative people to connect with potential clients.</p>
-                        <p>We're not just creatives; we're brand-whisperers, storytellers, and digital alchemists. We take your vision, infuse it with our spark, and craft unforgettable experiences that ignite imaginations and leave audiences begging for more. At Bringer, we don't just build brands, we build movements.</p>
-                        <p>We are a team of passionate and experienced designers, developers, and marketers who specialize in helping businesses of all sizes achieve their goals. We believe that creativity is the key to success, and we are committed to helping our clients unleash their full potential.</p>
-                        <p>We believe in the power of creativity. We help creative professionals create a strong online presence that showcases their work and tells their story.</p>
+                        <p>PythonCoding4U is a premier technology solutions provider dedicated to helping businesses and individuals achieve their digital goals. Our expertise spans web development, e-commerce solutions, artificial intelligence, machine learning projects, and mobile app development. We also offer specialized services for college students, assisting them with their minor and major projects.</p>
+                        <p>Founded with a vision to empower through technology, PythonCoding4U consistently delivers innovative solutions that drive success. Our team of skilled professionals brings extensive experience and technical prowess to each project, ensuring we exceed our clients' expectations. Whether you're a startup establishing an online presence, an established business optimizing operations, or a student seeking project guidance, we have the expertise to support you.</p>
+                        <p>We believe in a client-centric approach, working closely with our clients to understand their unique needs and challenges. Our comprehensive services provide end-to-end support, from initial consultation and strategic planning to development, deployment, and ongoing maintenance.</p>
+                        <p>Quality, innovation, and customer satisfaction are the cornerstones of our business. We employ cutting-edge technologies and follow industry best practices to ensure our solutions are effective and future-proof. Join the growing number of businesses and individuals who trust PythonCoding4U for their digital needs. Let us help you harness technology to achieve your goals and transform your ideas into reality.</p>
                     </div>
                 </div>
             </section>
 
             <!-- Section: Team -->
-            <section>
-                <!-- Section Title -->
+            <!-- <section>
+     
                 <div class="stg-row bringer-section-title">
                     <div class="stg-col-8 stg-offset-2 stg-tp-col-10 stg-tp-offset-1">
                         <div class="align-center">
@@ -59,10 +60,12 @@
                         </div>
                     </div>
                 </div>
-                <!-- Team Carousel -->
+
+                
+             
                 <div class="swiper bringer-carousel" data-appear="fade-up" data-delay="200" data-tp-centered="0" data-unload="fade-up">
                     <div class="swiper-wrapper">
-                        <!-- Carousel Item -->
+        
                         <div class="bringer-block bringer-carousel-card swiper-slide">
                             <div class="bringer-carousel-card-image">
                                 <img class="bringer-lazy" src="img/null.png" data-src="img/team/team01-thmb.jpg" alt="Elizabeth Riley" width="600" height="900">
@@ -75,8 +78,9 @@
                                 <span class="bringer-icon bringer-icon-explore"></span>
                             </div>
                             <a href="team-member.html"></a>
-                        </div><!-- .bringer-carousel-card -->
-                        <!-- Carousel Item -->
+                        </div>  
+
+
                         <div class="bringer-block bringer-carousel-card swiper-slide">
                             <div class="bringer-carousel-card-image">
                                 <img class="bringer-lazy" src="img/null.png" data-src="img/team/team02-thmb.jpg" alt="John Belrose" width="600" height="900">
@@ -89,8 +93,9 @@
                                 <span class="bringer-icon bringer-icon-explore"></span>
                             </div>
                             <a href="team-member.html"></a>
-                        </div><!-- .bringer-carousel-card -->
-                        <!-- Carousel Item -->
+                        </div>
+
+
                         <div class="bringer-block bringer-carousel-card swiper-slide">
                             <div class="bringer-carousel-card-image">
                                 <img class="bringer-lazy" src="img/null.png" data-src="img/team/team03-thmb.jpg" alt="Sonya Altena" width="600" height="900">
@@ -103,8 +108,9 @@
                                 <span class="bringer-icon bringer-icon-explore"></span>
                             </div>
                             <a href="team-member.html"></a>
-                        </div><!-- .bringer-carousel-card -->
-                        <!-- Carousel Item -->
+                        </div>
+
+
                         <div class="bringer-block bringer-carousel-card swiper-slide">
                             <div class="bringer-carousel-card-image">
                                 <img class="bringer-lazy" src="img/null.png" data-src="img/team/team04-thmb.jpg" alt="Nikolas Rome" width="600" height="900">
@@ -117,8 +123,9 @@
                                 <span class="bringer-icon bringer-icon-explore"></span>
                             </div>
                             <a href="team-member.html"></a>
-                        </div><!-- .bringer-carousel-card -->
-                        <!-- Carousel Item -->
+                        </div>
+
+
                         <div class="bringer-block bringer-carousel-card swiper-slide">
                             <div class="bringer-carousel-card-image">
                                 <img class="bringer-lazy" src="img/null.png" data-src="img/team/team05-thmb.jpg" alt="Candy Tittensor" width="600" height="900">
@@ -131,28 +138,36 @@
                                 <span class="bringer-icon bringer-icon-explore"></span>
                             </div>
                             <a href="team-member.html"></a>
-                        </div><!-- .bringer-carousel-card -->
+                        </div>
                     </div>
-                    <!-- Pagination -->
+                   
+
+
                     <div class="swiper-pagination bringer-dots"></div>
-                </div><!-- .bringer-carousel -->
-            </section>
+                </div>
+            </section> -->
 
             <!-- Section: Our Story -->
             <section class="backlight-top">
                 <div class="stg-row stg-large-gap stg-m-normal-gap">
                     <div class="stg-col-6 stg-tp-bottom-gap-l stg-m-bottom-gap" data-appear="fade-right" data-unload="fade-left">
                         <div class="bringer-parallax-media">
-                            <img class="bringer-lazy" src="img/null.png" data-src="img/home/about02.jpg" alt="Our Story" width="960" height="960">
+                            <img class="bringer-lazy" src="{% static '/img/mission.jpg' %}" data-src="{% static '/img/mission.jpg' %}" alt="Our Story" width="960" height="960">
                         </div>
                     </div>
                     <div class="stg-col-6 stg-vertical-space-between" data-appear="fade-left" data-unload="fade-right">
                         <div>
-                            <h2>From passion project To brand catalyst</h2>
-                            <p class="bringer-large-text">Bringer wasn't born in a boardroom; it was born in a coffee shop, fueled by late-night brainstorming and a shared belief in the power of creativity.</p>
-                            <p>We saw a digital landscape filled with noise and sameness, and we knew we had the spark to ignite something different. Today, we're a team of passionate storytellers, designers, and strategists who bring brands to life with vibrant visuals, captivating narratives, and data-driven campaigns.</p>
+                            <h2>Our Mission</h2>
+                            <!-- <p class="bringer-large-text">Bringer wasn't born in a boardroom; it was born in a coffee shop, fueled by late-night brainstorming and a shared belief in the power of creativity.</p> -->
+                            <p>At PythonCoding4U, our mission is to empower businesses and individuals by delivering cutting-edge technology solutions that drive success and innovation. We are dedicated to providing exceptional services in web development, e-commerce platforms, AI/ML projects, and mobile app development. Our goal is to bridge the gap between technology and our clients' needs, helping them to achieve their digital ambitions efficiently and effectively.</p>
+                           
+
+                            <h2>Our Vision</h2>
+                            <!-- <p class="bringer-large-text">Bringer wasn't born in a boardroom; it was born in a coffee shop, fueled by late-night brainstorming and a shared belief in the power of creativity.</p> -->
+                            <p>At PythonCoding4U, our vision is to be a global leader in providing innovative technology solutions that transform businesses and enhance lives. We aim to set the benchmark for excellence in web development, e-commerce platforms, AI/ML projects, and mobile app development. Our vision is to create a digital future where technology seamlessly integrates with everyday life, driving progress and making a positive impact on society.</p>
+
                         </div>
-                        <a href="contacts.html" class="bringer-icon-link">
+                        <a href="{% url 'contact' %}" class="bringer-icon-link">
                             <div class="bringer-icon-wrap">
                                 <i class="bringer-icon bringer-icon-explore"></i>
                             </div>
@@ -164,7 +179,7 @@
                                 </h6>
                                 <span class="bringer-label">Tell your story</span>
                             </div>
-                        </a><!-- .bringer-icon-link -->
+                        </a>
                     </div>
                 </div>
             </section>
@@ -174,80 +189,24 @@
                 <!-- Section Intro -->
                 <div class="stg-row stg-large-gap stg-bottom-gap-l">
                     <div class="stg-col-6 stg-tp-col-8 stg-tp-bottom-gap-l" data-unload="fade-left">
-                        <h2 data-split-appear="fade-up">Unleashing the full spectrum of magic</h2>
+                        <h2 data-split-appear="fade-up">Our Services</h2>
                     </div>
                     <div class="stg-col-6 stg-tp-col-9 stg-tp-offset-3" data-unload="fade-right">
-                        <p class="bringer-large-text" data-split-appear="fade-up" data-delay="100">We offer a wide range of creative services to help businesses of all sizes achieve their goals.</p>
-                        <p data-appear="fade-up" data-delay="200">We believe in a holistic approach to branding. We don't just design logos or write copy; we craft strategies that touch every aspect of your brand's digital experience. From brand identity and website design to marketing campaigns and content creation, we're your one-stop shop for igniting the potential of your brand. Our services include:</p>
+                        <p class="bringer-large-text" data-split-appear="fade-up" data-delay="100">Discover the range of services we offer to help you achieve your digital goals.</p>
+
                     </div>
                 </div>
                 <!-- Services List -->
                 <div class="bringer-detailed-list-wrap" data-appear="fade-up" data-unload="fade-up">
-                    <ul class="bringer-detailed-list">
-                        <li>
-                            <div class="bringer-detailed-list-title">
-                                <h4>Branding<span class="bringer-accent">.</span></h4>
-                            </div>
-                            <div class="bringer-detailed-list-description">
-                                <p>We weave visual stories and craft strategic messaging that resonate at heartstrings, build unwavering trust, and turn customers into fervent brand champions. Imagine seeing your logo come alive, not just a symbol but a rallying cry, an unwavering beacon in a sea of sameness. That's the power of branding we unleash.</p>
-                            </div>
-                            <div class="bringer-detailed-list-button">
-                                <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="service-details.html"></a>
-                        </li>
-                        <li>
-                            <div class="bringer-detailed-list-title">
-                                <h4>Marketing<span class="bringer-accent">.</span></h4>
-                            </div>
-                            <div class="bringer-detailed-list-description">
-                                <p>We design data-driven campaigns that crackle with energy, ignite engagement like wildfire, and turn clicks into conversions. Picture social media abuzz with your brand, blog posts sparking curiosity, and targeted ads finding their perfect match. We're the storm that propels your brand to ever-higher heights.</p>
-                            </div>
-                            <div class="bringer-detailed-list-button">
-                                <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="service-details.html"></a>
-                        </li>
-                        <li>
-                            <div class="bringer-detailed-list-title">
-                                <h4>Graphic Design<span class="bringer-accent">.</span></h4>
-                            </div>
-                            <div class="bringer-detailed-list-description">
-                                <p>We craft visual masterpieces that sing your brand's story in vibrant colors and captivating shapes. From logos that lodge in minds to infographics that make complex ideas sing, we inject emotional punch and crystal-clear clarity into every pixel. Let your visuals become the unforgettable face of your brand.</p>
-                            </div>
-                            <div class="bringer-detailed-list-button">
-                                <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="service-details.html"></a>
-                        </li>
-                        <li>
-                            <div class="bringer-detailed-list-title">
-                                <h4>Web Design<span class="bringer-accent">.</span></h4>
-                            </div>
-                            <div class="bringer-detailed-list-description">
-                                <p>We sculpt user-friendly websites that convert visitors into loyal devotees, seamlessly blending stunning aesthetics with intuitive navigation and flawless experiences for every screen. Imagine your website as a warm, inviting space where potential customers linger, explore, and ultimately succumb to its charms. We craft that digital haven.</p>
-                            </div>
-                            <div class="bringer-detailed-list-button">
-                                <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="service-details.html"></a>
-                        </li>
-                        <li>
-                            <div class="bringer-detailed-list-title">
-                                <h4>Content Creation<span class="bringer-accent">.</span></h4>
-                            </div>
-                            <div class="bringer-detailed-list-description">
-                                <p>We weave compelling narratives into blog posts, website copy, and social media content that resonate with your audience like a well-loved symphony. Picture search engines whispering your brand's name, and customers sharing your story with eager ears. We craft the voice that makes your brand sing.</p>
-                            </div>
-                            <div class="bringer-detailed-list-button">
-                                <span class="bringer-icon bringer-icon-explore"></span>
-                            </div>
-                            <a href="service-details.html"></a>
-                        </li>
+                    <ul class="bringer-detailed-list" id="service-list">
+                       
+                       
+                      
+                       
                     </ul>
                 </div><!-- .bringer-detailed-list-wrap -->
                 <div class="align-center stg-top-gap-l" data-appear="fade-up" data-unload="fade-up">
-                    <a href="services.html" class="bringer-button">Explore All Services</a>
+                    <a href="{% url 'services' %}" class="bringer-button">Explore All Services</a>
                 </div>
             </section>
 
@@ -255,42 +214,67 @@
             <section>
                 <div class="align-center stg-bottom-gap-l">
                     <h2 data-split-appear="fade-up" data-unload="fade-up">The fire that fuels our passion.</h2>
-                    <p class="bringer-large-text" data-appear="fade-up" data-delay="100" data-unload="fade-up">At Bringer, we believe in the power of:</p>
+                    <p  data-appear="fade-up" data-delay="100" data-unload="fade-up">At PythonCoding4U, our passion for technology and innovation drives everything we do. We are committed to pushing boundaries, exploring new frontiers, and delivering exceptional solutions that make a difference. Here's what ignites our passion:</p>
                 </div>
 
                 <div class="bringer-grid-2cols" data-stagger-appear="zoom-in" data-delay="150" data-unload="fade-up">
                     <!-- Icon Box Icon -->
                     <div class="bringer-icon-box bringer-block">
-                        <h4>Creativity<span class="bringer-accent">.</span></h4>
-                        <p class="bringer-large-text">We dare to dream big and push boundaries, never settling for the ordinary.</p>
+                        <h4>Innovation and Creativity<span class="bringer-accent">.</span></h4>
+                        <p class="bringer-large-text">We thrive on innovation and creativity, always seeking new ways to solve problems and bring fresh ideas to life.</p>
                         <div class="bringer-box-icon">
                             <i class="bringer-icon bringer-icon-creativity"></i>
                         </div>
                     </div><!-- .bringer-block -->
                     <!-- Icon Box Icon -->
                     <div class="bringer-icon-box bringer-block">
-                        <h4>Collaboration<span class="bringer-accent">.</span></h4>
-                        <p class="bringer-large-text">We thrive on diverse perspectives and believe in the magic of working together.</p>
+                        <h4>Commitment to Excellence<span class="bringer-accent">.</span></h4>
+                        <p class="bringer-large-text">Our dedication to excellence ensures that every project we undertake is executed with precision, quality, and care.</p>
                         <div class="bringer-box-icon">
                             <i class="bringer-icon bringer-icon-collab"></i>
                         </div>
                     </div><!-- .bringer-block -->
                     <!-- Icon Box Icon -->
                     <div class="bringer-icon-box bringer-block">
-                        <h4>Impact<span class="bringer-accent">.</span></h4>
-                        <p class="bringer-large-text">We're driven by a desire to make a difference, to create brands that move mountains.</p>
+                        <h4>Client Success<span class="bringer-accent">.</span></h4>
+                        <p class="bringer-large-text">Your success is our success. We are passionate about helping our clients achieve their goals and realize their vision.</p>
                         <div class="bringer-box-icon">
                             <i class="bringer-icon bringer-icon-impact"></i>
                         </div>
                     </div><!-- .bringer-block -->
                     <!-- Icon Box Icon -->
                     <div class="bringer-icon-box bringer-block">
-                        <h4>Innovation<span class="bringer-accent">.</span></h4>
-                        <p class="bringer-large-text">We stay ahead of the curve, embracing new technologies &amp; trends to keep your brand on top.</p>
+                        <h4>Continuous Learning<span class="bringer-accent">.</span></h4>
+                        <p class="bringer-large-text">We are lifelong learners, constantly updating our skills and knowledge to stay ahead in the fast-paced world of technology.</p>
                         <div class="bringer-box-icon">
                             <i class="bringer-icon bringer-icon-innovation"></i>
                         </div>
                     </div><!-- .bringer-block -->
+
+
+                     <!-- Icon Box Icon -->
+                     <div class="bringer-icon-box bringer-block">
+                        <h4>Team Collaboration<span class="bringer-accent">.</span></h4>
+                        <p class="bringer-large-text">Collaboration is key to our success. We foster a collaborative environment where every team member's ideas and skills contribute to our collective achievements.</p>
+                        <div class="bringer-box-icon">
+                            <i class="bringer-icon bringer-icon-collab"></i>
+                        </div>
+                    </div><!-- .bringer-block -->
+
+
+                     <!-- Icon Box Icon -->
+                     <div class="bringer-icon-box bringer-block">
+                        <h4>Impactful Solutions<span class="bringer-accent">.</span></h4>
+                        <p class="bringer-large-text">We are driven by the desire to create solutions that have a meaningful impact, improving the way people live and work.</p>
+                        <div class="bringer-box-icon">
+                            <i class="bringer-icon bringer-icon-creativity"></i>
+                        </div>
+                    </div><!-- .bringer-block -->
+
+
+
+
+
                 </div><!-- .bringer-grid -->
             </section>
 
@@ -299,22 +283,22 @@
                 <div class="bringer-bento-grid bringer-grid-cta">
                     <div class="is-large bringer-masked-block" data-appear="fade-right" data-unload="fade-left">
                         <div class="bringer-grid-cta-media bringer-masked-media" data-bg-src="img/cta/grid-cta-background.jpg">
-                            <div class="bringer-grid-cta-heading">Need to amplify your voice?</div>
+                            <div class="bringer-grid-cta-heading">Need to Amplify Your Digital Presence?</div>
                         </div>
                         <div class="bringer-masked-content at-bottom-right">
                             <p class="bringer-large-text" data-appear="fade-right" data-delay="100">Let's chat about your goals &rarr;</p>
                         </div>
                     </div>
                     <div class="is-medium bringer-block" data-appear="fade-down" data-unload="fade-right">
-                        <h3>We will design campaigns that make the world listen</h3>
+                        <p>At PythonCoding4U, we're here to help you make a significant impact in the digital world. Whether you need a compelling website, a robust e-commerce platform, cutting-edge AI/ML solutions, or a dynamic mobile app, we have the expertise to elevate your brand and enhance your digital footprint.</p>
                     </div>
                     <div class="is-small" data-appear="zoom-out" data-delay="100" data-unload="zoom-out">
-                        <a href="contacts.html" class="bringer-square-button">
+                        <a href="https://wa.me/918603862290" class="bringer-square-button">
                             <span class="bringer-icon bringer-icon-explore"></span>
                         </a>
                     </div>
                     <div class="is-small" data-appear="zoom-out" data-delay="200" data-unload="zoom-out">
-                        <img src="img/cta/grid-cta-02.jpg" alt="Let's Chat" width="960" height="960">
+                        <img src="{% static 'img/cta/grid-cta-02.jpg' %}" alt="Let's Chat" width="960" height="960">
                     </div>
                 </div>
             </section>
@@ -326,8 +310,51 @@
 
         <script>
 
-            $('#home').removeClass('current-menu-parent');
-            $("#about").addClass('current-menu-parent');
+
+                $(document).ready(function() {
+
+                $('#home').removeClass('current-menu-parent');
+                $("#about").addClass('current-menu-parent');
+
+                // URL of the service list API
+                var apiUrl = "{% url 'serviceapi' %}";
+
+                // Function to create the service list item HTML
+                function createServiceListItem(service) {
+                    return `
+                        <li>
+                            <div class="bringer-detailed-list-title">
+                                <h4>${service.service_name}<span class="bringer-accent">.</span></h4>
+                            </div>
+                            <div class="bringer-detailed-list-description">
+                                <p>${service.meta_description}</p>
+                            </div>
+                            <div class="bringer-detailed-list-button">
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                            <a href="/services/${service.slug}"></a>
+                        </li>
+                    `;
+                }
+
+                // AJAX call to fetch the service data
+                $.ajax({
+                    url: apiUrl,
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(services) {
+                        var serviceList = $('#service-list');
+                        serviceList.empty(); // Clear any existing content
+                        services.forEach(function(service) {
+                            serviceList.append(createServiceListItem(service));
+                        });
+                    },
+                    error: function(xhr, status, error) {
+                        console.error('Failed to fetch services:', error);
+                    }
+                });
+            });
+
 
 
 
