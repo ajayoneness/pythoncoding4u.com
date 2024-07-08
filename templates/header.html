@@ -23,8 +23,54 @@
 
     <!-- Favicon -->
     <link rel="icon" href="{% static 'img/favicon.ico' %}" sizes="32x32">
+
+    <style>
+
+        .whatapp-img{
+            z-index: 99;
+            width: 50px;
+            bottom: 25px;
+            position: fixed;
+            left: 25px;
+            animation: jump 0.5s linear infinite;
+        }
+
+        @keyframes jump {
+
+            0%{
+                transform: scale(1.1);
+            }
+            50%{
+                transform: scale(1.2);
+            }
+
+            100%{
+                transform: scale(1.1);
+            }
+            
+        }
+
+        @media only screen and (max-width: 600px) {
+            .whatapp-img{
+            bottom: 10px;
+            left: 10px;
+            }
+        }
+
+
+    </style>
+
+
+
 </head>
 <body>
+    <a href="https://wa.me/918603862290">
+        <img src="{% static '/img/whatapp.png' %}" class="whatapp-img">
+    </a>
+    
+
+
+
     <!-- Header -->
     <header id="bringer-header" class="is-frosted is-sticky" data-appear="fade-down" data-unload="fade-up">
         <!-- Desktop Header -->
