@@ -21,7 +21,7 @@
             <!-- Section: Grid -->
             <section>
                 <!-- Portfolio Grid -->
-                <div class="bringer-grid-3cols bringer-tp-grid-2cols bringer-tp-centered-last-item stg-normal-gap bringer-parallax-media" data-stagger-appear="fade-up" data-threshold="0.5" data-stagger-delay="150" data-stagger-unload="fade-up">
+                <div id="blog-cards-container" class="bringer-grid-3cols bringer-tp-grid-2cols bringer-tp-centered-last-item stg-normal-gap bringer-parallax-media" data-stagger-appear="fade-up" data-threshold="0.5" data-stagger-delay="150" data-stagger-unload="fade-up">
                     
                     <!-- Portfolio Card Item 01 -->
                     <div class="bringer-block bringer-portfolio-card">
@@ -81,8 +81,42 @@
 
 
 <script>
+    $(document).ready(function() {
 
     $('#home').removeClass('current-menu-parent');
     $("#blog").addClass('current-menu-parent');
+
+    $.ajax({
+        url: "{% url 'blogapi' %}",  // Your API endpoint
+        method: 'GET',
+        success: function(data) {
+            var blogContainer = $('#blog-cards-container');
+            blogContainer.empty();  // Clear the container
+            
+            data.forEach(function(blog) {
+                var blogCard = `
+                    <div class="bringer-block bringer-portfolio-card">
+                        <div class="bringer-portfolio-card-image">
+                            <img class="bringer-lazy" src="${blog.image}" data-src="${blog.image}" alt="" width="1200" height="1200">
+                        </div>
+                        <div class="bringer-portfolio-card-footer">
+                            <div class="bringer-portfolio-card-title">
+                                <span class="bringer-meta">${blog.category.name}</span>
+                                <h6>${blog.meta_title}</h6>
+                                <p style="margin-top:5px;">${blog.meta_description}</p>
+                                <span class="bringer-icon bringer-icon-explore"></span>
+                            </div>
+                        </div>
+                        <a href="/blogs/${blog.slug}"></a>
+                    </div><!-- .bringer-portfolio-card -->
+                `;
+                blogContainer.append(blogCard);
+            });
+        },
+        error: function(error) {
+            console.log('Error fetching blog data:', error);
+        }
+    });
+});
 
 </script>
