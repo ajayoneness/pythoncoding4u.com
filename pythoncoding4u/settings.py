@@ -25,8 +25,8 @@ INSTALLED_APPS = [
     'main',
     'projects',
     'services',
-    'blogs',
     'testmonials',
+    'BlogApp',
 ]
 
 MIDDLEWARE = [
