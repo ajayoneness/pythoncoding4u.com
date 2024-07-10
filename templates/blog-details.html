@@ -2,7 +2,26 @@
 {% load static %}
 {% include 'header.html' %}
 
+<style>
 
+    .carddd{
+        background-color: rgb(61, 61, 61);
+        height: 40px;
+        width: 100%;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        padding:10px;
+    }
+
+    .carddd1{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        padding: 40px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+
+</style>
 
     <!-- Page Main -->
     <main id="bringer-main">
@@ -10,33 +29,34 @@
             <!-- Section: Page Title -->
             <section>
                 <div class="stg-row stg-bottom-gap-l stg-tp-bottom-gap">
-                    <div class="stg-col-6 stg-tp-bottom-gap">
-                        <h1 class="bringer-post-title" data-appear="fade-up" data-unload="fade-left">Curology</h1>
+                    <div class="stg-col-12 stg-tp-bottom-gap">
+                        <h1  class="bringer-post-title" data-appear="fade-up" data-unload="fade-left">{{blogs.meta_title}}</h1>
+                        <p>{{blogs.meta_description}}</p>
                     </div>
-                    <div class="stg-col-6 stg-tp-col-9 stg-tp-offset-3 align-right" data-appear="fade-up" data-delay="100" data-unload="fade-right">
-                        <p>Beyond formulas: Building a brand that speaks to skin, soul, and science. Collaborating with Curology to create a transformative skincare experience, from brand identity to customer connection.</p>
-                    </div>
+                    <!-- <div class="stg-col-6 stg-tp-col-9 stg-tp-offset-3 align-right" data-appear="fade-up" data-delay="100" data-unload="fade-right">
+                        
+                    </div> -->
                 </div>
 
                 <!-- Slider -->
-                <div class="bringer-slider-wrapper stg-bottom-gap" data-appear="fade-up" data-delay="200" data-unload="fade-up">
+                <!-- <div class="bringer-slider-wrapper stg-bottom-gap" data-appear="fade-up" data-delay="200" data-unload="fade-up">
                     <div class="swiper bringer-slider" data-autoplay="2000" data-duration="800" data-effect="slide">
                         <div class="swiper-wrapper">
-                            <!-- Slider Item -->
+                            
                             <div class="swiper-slide">
                                 <img src="img/portfolio/portfolio01/slider01.jpg" alt="Curology" width="1920" height="1080">
                             </div>
-                            <!-- Slider Item -->
+                           
                             <div class="swiper-slide">
                                 <img src="img/portfolio/portfolio01/slider02.jpg" alt="Curology" width="1920" height="1080">
                             </div>
-                            <!-- Slider Item -->
+                     
                             <div class="swiper-slide">
                                 <img src="img/portfolio/portfolio01/slider03.jpg" alt="Curology" width="1920" height="1080">
                             </div>
                         </div>
-                    </div><!-- .bringer-slider -->
-                    <!-- Slider Navigation -->
+                    </div>
+                    
                     <div class="bringer-slider-nav on-sides">
                         <a href="#" class="bringer-slider-prev">
                             <span class="bringer-icon bringer-icon-arrow-left"></span>
@@ -45,18 +65,32 @@
                             <span class="bringer-icon bringer-icon-arrow-right"></span>
                         </a>
                     </div>
+                </div> -->
+
+
+                <div class="bringer-slider-wrapper stg-bottom-gap" data-appear="fade-up" data-delay="200" data-unload="fade-up">
+
+                    <div class="stg-row" data-appear="fade-left" data-unload="fade-left">
+                        <div class="stg-col-12">
+                            <img class="bringer-lazy" src="{{blogs.image.url}}" data-src="{{blogs.image.url}}" alt="Curology" width="100%" height="">
+                        </div>
+                    </div>
+
                 </div>
+
+
+
 
                 <!-- Meta -->
                 <div class="bringer-hero-info-line" data-stagger-appear="fade-up" data-delay="200" data-stager-delay="100" data-unload="fade-up">
                     <div class="bringer-meta">
-                        Client: <span>Curology</span>
+                        Category : <span>{{blogs.category}}</span>
                     </div>
                     <div class="bringer-meta">
-                        Service: <span>Branding</span>
+                        Written by : <span>{{blogs.author}}</span>
                     </div>
                     <div class="bringer-meta">
-                        Date: <span>October '2023</span>
+                        Date: <span>{{ blogs.date_time|date:"d F Y" }}</span>
                     </div>
                 </div><!-- .bringer-hero-info-line -->
             </section>
@@ -64,83 +98,101 @@
             <!-- Section: The Challenge -->
             <section data-padding="top" class="backlight-top">
                 <div class="stg-row stg-bottom-gap-l">
-                    <div class="stg-col-6 stg-tp-bottom-gap" data-appear="fade-right" data-unload="fade-left">
-                        <h2>The Challenge</h2>
-                    </div>
-                    <div class="stg-col-6 stg-tp-col-10 stg-tp-offset-2" data-appear="fade-left" data-unload="fade-right">
-                        <p class="bringer-large-text">Curology was a rapidly growing digital dermatology platform with a strong focus on personalized formulas. However, their brand identity lacked coherence and struggled to connect with their target audience on a deeper level. They needed a bold, human-centric approach that reflected their innovative solutions and resonated with customers seeking effective skincare.</p>
+                    <div class="stg-col-12 stg-tp-col-12 stg-tp-offset-2" data-appear="fade-left" data-unload="fade-right">
+                        <p class="bringer-large-text">{{blogs.long_description}}</p>
                     </div>
                 </div>
+
+
+                
+
+
                 <div class="stg-row" data-appear="fade-up" data-unload="zoom-out">
-                    <div class="stg-col-6 stg-offset-3 stg-tp-col-8 stg-tp-offset-2">
-                        <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio01/image01.jpg" alt="Curology" width="1200" height="1200">
+                    <div class="stg-col-12 stg-offset-0 stg-tp-col-12 stg-tp-offset-2">
+                        <!-- <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio01/image01.jpg" alt="Curology" width="1200" height="1200"> -->
+                         <div class="carddd">
+                            code
+                         </div>
+                         <div class="carddd1">
+                            {{blogs.code | safe}}
+                         </div>
                     </div>
                 </div>
+
+
+
             </section>
             
             <!-- Section: Our Approach -->
             <section data-padding="top">
                 <div class="stg-row stg-bottom-gap">
                     <div class="stg-col-6">
-                        <h2 data-appear="fade-up" data-unload="fade-left">Our Approach</h2>
+                        <h2 data-appear="fade-up" data-unload="fade-left">Steps to Follow</h2>
                     </div>
                 </div>
-                <div class="stg-row stg-bottom-gap-l" data-appear="fade-up" data-delay="100" data-unload="fade-right">
-                    <div class="stg-col-9 stg-offset-3 stg-tp-col-10 stg-tp-offset-2">
-                        <p class="bringer-large-text">We embarked on a collaborative journey with Curology, starting with in-depth research into their target audience and the evolving landscape of digital healthcare. We conducted workshops to uncover the brand's core values and storytelling potential, crafting a narrative that emphasized individuality and a personalized approach.</p>
+
+            
+                <div class="stg-col stg-bottom-gap-l" data-appear="fade-up" data-delay="100" data-unload="fade-right">
+
+                    {% for i in blogs.process.all %}
+                    <div class="stg-col-12 stg-offset-0 stg-tp-col-12 stg-tp-offset-0">
+                        <p style="margin-bottom: 5px;">STEP</p>
+                        <h6  class="bringer-large-text" style="">{{i.title}}</h6>
+                        <p>
+                            {{i.description}}
+                        </p>
+                        {% if i.image %}
+                        <div class="stg-row" data-appear="fade-left" data-unload="fade-left">
+                            <div class="stg-col-12">
+                                <img class="bringer-lazy" src="{{i.image.url}}" data-src="{{i.image.url}}" alt="Curology" width="100%" height="">
+                            </div>
+                        </div>
+                        {% endif %}
+                        <br>
+
+                        {% if i.code %}
+                        <div class="stg-row" data-appear="fade-up" data-unload="zoom-out">
+                            <div class="stg-col-12 stg-offset-0 stg-tp-col-12 stg-tp-offset-2">
+                                <!-- <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio01/image01.jpg" alt="Curology" width="1200" height="1200"> -->
+                                 <div class="carddd">
+                                    code
+                                 </div>
+                                 <div class="carddd1">
+                                    {{i.code}}
+                                 </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        <br><br>
                     </div>
+                    {% endfor %}
+
                 </div>
-                <div class="stg-row" data-appear="fade-left" data-unload="fade-left">
-                    <div class="stg-col-9">
-                        <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio01/slider03.jpg" alt="Curology" width="1200" height="1200">
-                    </div>
-                </div>
+
+
+                
             </section>
             
             <!-- Section: The Solution -->
             <section data-padding="top">
                 <div class="stg-row stg-bottom-gap-l">
-                    <div class="stg-col-6 stg-tp-bottom-gap" data-appear="fade-right" data-unload="fade-left">
-                        <h2>The Solution</h2>
+                    <div class="stg-col-12 stg-tp-bottom-gap" data-appear="fade-right" data-unload="fade-left">
+                        <h2>Conclusion</h2>
+                        <p class="bringer-large-text">{{blogs.conclusion}}</p>
                     </div>
-                    <div class="stg-col-6 stg-tp-col-10 stg-tp-offset-2" data-appear="fade-left" data-unload="fade-right">
-                        <p class="bringer-large-text">The new Curology brand identity embodies the concept of "skin confidence." We designed a vibrant and dynamic logo that symbolizes personal growth and renewal. The color palette evokes both the warmth of human connection and the scientific precision of dermatology. The tone of voice is friendly, empowering, and informed, creating a genuine dialogue with customers.</p>
-                    </div>
+                    
                 </div>
-                <!-- Gallery -->
-                <div class="bringer-grid-3cols" data-stagger-appear="fade-up" data-stagger-unload="fade-left">
-                    <div>
-                        <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio01/image02.jpg" alt="Curology" data-speed="0.95" data-m-speed="1" width="800" height="1200">
-                    </div>
-                    <div>
-                        <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio01/image03.jpg" alt="Curology" width="800" height="1200">
-                    </div>
-                    <div>
-                        <img class="bringer-lazy" src="img/null.png" data-src="img/portfolio/portfolio01/image04.jpg" alt="Curology" data-speed="1.05" data-m-speed="1" width="800" height="1200">
-                    </div>
-                </div>
+               
             </section>
             
-            <!-- Section: Results & Impact -->
-            <section>
-                <div class="stg-row stg-bottom-gap">
-                    <div class="stg-col-6" data-appear="fade-up" data-unload="fade-left">
-                        <h2>Results & Impact</h2>
-                    </div>
-                </div>
-                <div class="stg-row" data-appear="fade-up" data-delay="100" data-unload="fade-right">
-                    <div class="stg-col-9 stg-offset-3 stg-tp-col-10 stg-tp-offset-2">
-                        <p class="bringer-large-text">Following the brand identity launch, Curology saw a significant increase in brand awareness and customer engagement. Their social media following skyrocketed, and sales metrics exceeded expectations. The new brand resonated deeply with customers, creating a loyal community empowered to take control of their skin.</p>
-                    </div>
-                </div>
-            </section>
+            
 
             <!-- Section: Next Post -->
             <section class="divider-top" data-appear="fade-up">
                 <div class="align-center" data-unload="zoom-in">
                     <a href="portfolio-post02.html" class="bringer-icon-link bringer-next-post">
                         <div class="bringer-icon-link-content">
-                            <h6>Next Project</h6>
+                            <h6>Next Blog</h6>
                             <h2>Cookie Dough</h2>
                         </div>
                         <div class="bringer-icon-wrap">

@@ -6,7 +6,6 @@ class BlogCategory(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
     slug = models.SlugField(unique=True)
-
     def __str__(self):
         return self.name
     
@@ -34,6 +33,8 @@ class BlogTable(models.Model):
     slug = models.SlugField(unique=True)
     date_time = models.DateTimeField(auto_now_add=True)
     category = models.ForeignKey(BlogCategory, on_delete=models.CASCADE, related_name='blogs')
+    conclusion = models.TextField(blank=True, null=True)  
+    author = models.CharField(max_length=255, default="codeAj")
 
     def __str__(self):
         return self.slug

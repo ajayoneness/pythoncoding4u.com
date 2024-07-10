@@ -10,8 +10,8 @@ def allBlog(request):
 
 
 def singleblog(request, slug):
-    print(slug)
-    return render(request, 'blog-details.html')
+    blogDetails = get_object_or_404(BlogTable, slug=slug)
+    return render(request, 'blog-details.html',{"blogs" : blogDetails})
 
 
 
