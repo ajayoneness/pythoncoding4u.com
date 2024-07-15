@@ -11,6 +11,7 @@ def allBlog(request):
 
 def singleblog(request, slug):
     blogDetails = get_object_or_404(BlogTable, slug=slug)
+    print(blogDetails)
     return render(request, 'blog-details.html',{"blogs" : blogDetails})
 
 

@@ -1,0 +1,1782 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-07-03T16:14:04.293Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-07-03T18:03:06.715Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Facial Emotion Analysis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-07-03T18:03:33.312Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Personalized Movie Recommendations",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-07-03T18:04:01.388Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "User-Friendly Interface",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-07-03T18:04:30.561Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Extensive Movie Database",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-07-03T18:04:58.251Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Privacy and Security",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-07-03T18:05:21.725Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Real-Time Updates",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-07-03T18:05:47.093Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Movie Enthusiasts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-07-03T18:06:08.030Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Movie Streaming Platforms",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-07-03T18:06:32.487Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Entertainment Industry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-07-03T18:06:57.515Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Psychological Research",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-07-03T18:09:23.475Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Emotion is Everything",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-07-03T18:37:27.014Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Emotion is Everything",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image two\", \"Image three\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-07-05T06:23:51.603Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "CTO of Health Solutions - Krishna Raut",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-07-05T06:25:07.322Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "CEO of Tech Innovators - Rahul Sharma",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Designation\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-07-05T06:26:08.257Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Krishna Raut - CTO of Health Solutions",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-07-05T06:26:25.194Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Rahul Sharma - CEO of Tech Innovators",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Designation\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-07-05T10:14:02.790Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Initial Consultation",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-07-05T10:18:30.687Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Proposal Creation",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-07-05T10:19:33.076Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Planning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-07-05T10:20:16.204Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Design",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-07-05T10:25:15.300Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Development",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-07-05T10:29:09.784Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Testing",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-07-05T10:30:54.002Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Final Review and Deployment",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-07-05T10:33:22.552Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Post-Launch Maintenance",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-07-05T10:39:18.234Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Professional Web Development Services | Pythoncoding4u",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-07-06T04:00:56.624Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Emotion is Everything",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Features\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-07-06T04:01:54.781Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Emotion is Everything",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Features\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-07-06T17:27:20.173Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Initial Consultation",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Top tag\", \"Bottom tag\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-07-06T17:27:47.578Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Proposal Creation",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Top tag\", \"Bottom tag\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-07-06T17:29:42.860Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Initial Consultation",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Bottom tag\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-07-06T17:30:28.101Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Planning",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Top tag\", \"Bottom tag\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-07-06T17:31:01.766Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Design",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Top tag\", \"Bottom tag\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-07-06T17:32:04.653Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Development",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Top tag\", \"Bottom tag\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-07-06T17:32:24.373Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Final Review and Deployment",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Top tag\", \"Bottom tag\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-07-06T17:33:03.952Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Post-Launch Maintenance",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Top tag\", \"Bottom tag\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-07-06T17:33:16.644Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Testing",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Top tag\", \"Bottom tag\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-07-07T09:50:26.532Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Professional Web Development Services | Pythoncoding4u",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Process\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-07-07T09:51:00.646Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Professional Web Development Services | Pythoncoding4u",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Process\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-07-09T12:41:47.024Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-07-09T18:38:55.479Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "Download Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-07-09T19:00:46.276Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "2",
+    "object_repr": "Run the Installer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-07-09T19:02:27.927Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "3",
+    "object_repr": "Verify the Installation",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-07-09T19:05:15.978Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "4",
+    "object_repr": "Install an IDE",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-07-09T19:19:27.434Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "how-to-install-python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-07-10T13:01:29.562Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "how-to-install-python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Conclusion\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-07-10T13:13:32.086Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "how-to-install-python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Code\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add project category",
+    "content_type": 7,
+    "codename": "add_projectcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change project category",
+    "content_type": 7,
+    "codename": "change_projectcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete project category",
+    "content_type": 7,
+    "codename": "delete_projectcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view project category",
+    "content_type": 7,
+    "codename": "view_projectcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add project",
+    "content_type": 8,
+    "codename": "add_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change project",
+    "content_type": 8,
+    "codename": "change_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete project",
+    "content_type": 8,
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view project",
+    "content_type": 8,
+    "codename": "view_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add service process",
+    "content_type": 9,
+    "codename": "add_serviceprocess"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change service process",
+    "content_type": 9,
+    "codename": "change_serviceprocess"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete service process",
+    "content_type": 9,
+    "codename": "delete_serviceprocess"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view service process",
+    "content_type": 9,
+    "codename": "view_serviceprocess"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add service",
+    "content_type": 10,
+    "codename": "add_service"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change service",
+    "content_type": 10,
+    "codename": "change_service"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete service",
+    "content_type": 10,
+    "codename": "delete_service"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view service",
+    "content_type": 10,
+    "codename": "view_service"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add project features",
+    "content_type": 11,
+    "codename": "add_projectfeatures"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change project features",
+    "content_type": 11,
+    "codename": "change_projectfeatures"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete project features",
+    "content_type": 11,
+    "codename": "delete_projectfeatures"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view project features",
+    "content_type": 11,
+    "codename": "view_projectfeatures"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add project applications",
+    "content_type": 12,
+    "codename": "add_projectapplications"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change project applications",
+    "content_type": 12,
+    "codename": "change_projectapplications"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete project applications",
+    "content_type": 12,
+    "codename": "delete_projectapplications"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view project applications",
+    "content_type": 12,
+    "codename": "view_projectapplications"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add blog category",
+    "content_type": 13,
+    "codename": "add_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change blog category",
+    "content_type": 13,
+    "codename": "change_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete blog category",
+    "content_type": 13,
+    "codename": "delete_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view blog category",
+    "content_type": 13,
+    "codename": "view_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add blog table",
+    "content_type": 14,
+    "codename": "add_blogtable"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change blog table",
+    "content_type": 14,
+    "codename": "change_blogtable"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete blog table",
+    "content_type": 14,
+    "codename": "delete_blogtable"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view blog table",
+    "content_type": 14,
+    "codename": "view_blogtable"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add testimonial",
+    "content_type": 15,
+    "codename": "add_testimonial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change testimonial",
+    "content_type": 15,
+    "codename": "change_testimonial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete testimonial",
+    "content_type": 15,
+    "codename": "delete_testimonial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view testimonial",
+    "content_type": 15,
+    "codename": "view_testimonial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add blog category",
+    "content_type": 16,
+    "codename": "add_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change blog category",
+    "content_type": 16,
+    "codename": "change_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete blog category",
+    "content_type": 16,
+    "codename": "delete_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view blog category",
+    "content_type": 16,
+    "codename": "view_blogcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add blog table",
+    "content_type": 17,
+    "codename": "add_blogtable"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change blog table",
+    "content_type": 17,
+    "codename": "change_blogtable"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete blog table",
+    "content_type": 17,
+    "codename": "delete_blogtable"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view blog table",
+    "content_type": 17,
+    "codename": "view_blogtable"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add steps",
+    "content_type": 18,
+    "codename": "add_steps"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change steps",
+    "content_type": 18,
+    "codename": "change_steps"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete steps",
+    "content_type": 18,
+    "codename": "delete_steps"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view steps",
+    "content_type": 18,
+    "codename": "view_steps"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$z62onEtfCKGz7nDwDqKhW7$eDD95cvhLUwLpm2ys7AN7krhDsC6f7z95tJcoVqX5P4=",
+    "last_login": "2024-07-05T16:45:04.825Z",
+    "is_superuser": true,
+    "username": "codeaj",
+    "first_name": "",
+    "last_name": "",
+    "email": "codeaj4u@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-07-03T16:12:39.138Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "projects",
+    "model": "projectcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "projects",
+    "model": "project"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "services",
+    "model": "serviceprocess"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "services",
+    "model": "service"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "projects",
+    "model": "projectfeatures"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "projects",
+    "model": "projectapplications"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "blogs",
+    "model": "blogcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "blogs",
+    "model": "blogtable"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "testmonials",
+    "model": "testimonial"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "BlogApp",
+    "model": "blogcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "BlogApp",
+    "model": "blogtable"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "BlogApp",
+    "model": "steps"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2yuiswr9nw48aww3t5pe91r38ul53glf",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP-FsyHlVYpH7_0GsssuUjU0Ke3J-O-GpAe9zkzmLSIce4lH4y0uJK5CicsvQ0hPrl3QA-p9lWmt-7ag7Ik8bZPzSvy6ne3foEArfRuATBgSKmKNyTg2KiRtEUBntD6gNm4cjLV-VC4H4ok0keWUJ-OCF58v7Ok4Aw:1sPm3U:xzXjAhI_RdO5qmRsSpvTeDe4v06o5U_CklxUMnhtWdU",
+    "expire_date": "2024-07-19T16:45:04.859Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bcuaczgu81y2qigobywzlm3gxm5yfs6j",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP-FsyHlVYpH7_0GsssuUjU0Ke3J-O-GpAe9zkzmLSIce4lH4y0uJK5CicsvQ0hPrl3QA-p9lWmt-7ag7Ik8bZPzSvy6ne3foEArfRuATBgSKmKNyTg2KiRtEUBntD6gNm4cjLV-VC4H4ok0keWUJ-OCF58v7Ok4Aw:1sP2bR:zzSa5pNYmNKclLMhRi6ov8j-y27V4QIObie-RNkii-8",
+    "expire_date": "2024-07-17T16:13:05.392Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lmr7hm42dizqny5frhssr516shtnth8f",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP-FsyHlVYpH7_0GsssuUjU0Ke3J-O-GpAe9zkzmLSIce4lH4y0uJK5CicsvQ0hPrl3QA-p9lWmt-7ag7Ik8bZPzSvy6ne3foEArfRuATBgSKmKNyTg2KiRtEUBntD6gNm4cjLV-VC4H4ok0keWUJ-OCF58v7Ok4Aw:1sPcHj:KPzRspOYzoDPqra_TuPRdFULoBjIbqf-0PgO1m1_qoE",
+    "expire_date": "2024-07-19T06:19:07.261Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "s04woyxiqqluucrsq1l14lty2dg3rpbx",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP-FsyHlVYpH7_0GsssuUjU0Ke3J-O-GpAe9zkzmLSIce4lH4y0uJK5CicsvQ0hPrl3QA-p9lWmt-7ag7Ik8bZPzSvy6ne3foEArfRuATBgSKmKNyTg2KiRtEUBntD6gNm4cjLV-VC4H4ok0keWUJ-OCF58v7Ok4Aw:1sPLhc:6RmTa-qOiafD5M2x8FgUZUDmT0lxS3P3EHF9z2nf248",
+    "expire_date": "2024-07-18T12:36:44.699Z"
+  }
+},
+{
+  "model": "projects.projectcategory",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "description": "Python is a programming language that lets you work quickly and integrate systems more effectively",
+    "slug": "python"
+  }
+},
+{
+  "model": "projects.projectfeatures",
+  "pk": 1,
+  "fields": {
+    "title": "Facial Emotion Analysis",
+    "description": "Emotion is Everything employs the Deepface library and CV2 to analyze facial expressions in real-time. By detecting emotions such as joy, sadness, anger, fear, and more, the platform gains valuable insights into users' emotional states."
+  }
+},
+{
+  "model": "projects.projectfeatures",
+  "pk": 2,
+  "fields": {
+    "title": "Personalized Movie Recommendations",
+    "description": "Leveraging the emotions detected, the platform offers personalized movie recommendations to users. Whether they seek heartwarming comedies, thrilling adventures, or thought-provoking dramas, Emotion is Everything has the perfect movie in store."
+  }
+},
+{
+  "model": "projects.projectfeatures",
+  "pk": 3,
+  "fields": {
+    "title": "User-Friendly Interface",
+    "description": "The platform boasts a user-friendly interface with a seamless user experience. Navigating through movie recommendations based on emotions becomes intuitive and engaging."
+  }
+},
+{
+  "model": "projects.projectfeatures",
+  "pk": 4,
+  "fields": {
+    "title": "Extensive Movie Database",
+    "description": "Emotion is Everything houses an extensive movie database, ensuring a diverse selection of movies catering to various emotional preferences."
+  }
+},
+{
+  "model": "projects.projectfeatures",
+  "pk": 5,
+  "fields": {
+    "title": "Privacy and Security",
+    "description": "Privacy and data security are paramount. Emotion is Everything prioritizes safeguarding users' facial data and emotions, providing a safe and trustworthy experience."
+  }
+},
+{
+  "model": "projects.projectfeatures",
+  "pk": 6,
+  "fields": {
+    "title": "Real-Time Updates",
+    "description": "The platform continuously adapts to users' evolving emotional states, ensuring movie recommendations remain relevant and enjoyable."
+  }
+},
+{
+  "model": "projects.projectapplications",
+  "pk": 1,
+  "fields": {
+    "title": "Movie Enthusiasts",
+    "description": "Movie enthusiasts can explore a new dimension of movie recommendations tailored to their current emotional states, enhancing their cinematic experiences."
+  }
+},
+{
+  "model": "projects.projectapplications",
+  "pk": 2,
+  "fields": {
+    "title": "Movie Streaming Platforms",
+    "description": "Emotion is Everything can be integrated with movie streaming platforms, offering users a unique and personalized recommendation feature."
+  }
+},
+{
+  "model": "projects.projectapplications",
+  "pk": 3,
+  "fields": {
+    "title": "Entertainment Industry",
+    "description": "In the entertainment industry, the platform can be leveraged to analyze audience reactions during movie screenings and gauge emotional responses for marketing purposes."
+  }
+},
+{
+  "model": "projects.projectapplications",
+  "pk": 4,
+  "fields": {
+    "title": "Psychological Research",
+    "description": "Emotion is Everything can find applications in psychological research, helping professionals understand emotional triggers and responses to movies."
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "meta_title": "Emotion is Everything",
+    "meta_description": "an innovative project using Python Django, Deepface, and CV2 for real-time facial emotion analysis. It suggests personalized movie recommendations based on users' emotions..",
+    "long_description": "Emotion is Everything is an exciting and innovative project that blends the power of Python Django, Deepface, and CV2 for face detection and emotion analysis. The platform goes beyond traditional movie recommendation systems by suggesting movies based on users' emotional states, identified through facial expressions.\r\n<br><br>\r\nEmotion is Everything is a groundbreaking project that taps into the realm of emotions and movie preferences. Through the fusion of Python Django, Deepface, and CV2, the platform creates an immersive movie recommendation experience based on users' facial expressions and emotions. Experience the magic of emotions and movies with Emotion is Everything!",
+    "youtube_link": "https://youtu.be/eHr4-jGj5oQ",
+    "image_one": "projects/emotioniseverything.png",
+    "image_two": "projects/Screenshot_63.png",
+    "image_three": "projects/Screenshot_64.png",
+    "slug": "emotion-is-everything",
+    "features": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "Applications": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "services.serviceprocess",
+  "pk": 1,
+  "fields": {
+    "image": "service_process/gynecology-consultation-illustration_52683-45777.jpg",
+    "title": "Initial Consultation",
+    "number": 1,
+    "description": "Begin by engaging with the client to thoroughly understand their business objectives, target audience, and specific requirements for the website. This involves discussing desired features, design preferences, and any integrations needed to ensure the website aligns with their strategic goals.",
+    "top_tag": "<div class=\"stg-row stg-bottom-gap stg-valign-middle  stg-m-bottom-gap-l\" data-unload=\"fade-left\">\r\n                    <div class=\"stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap\" data-appear=\"fade-right\">",
+    "bottom_tag": "<p></p>"
+  }
+},
+{
+  "model": "services.serviceprocess",
+  "pk": 2,
+  "fields": {
+    "image": "service_process/hand-drawn-business-deal-background_23-2148109452.jpg",
+    "title": "Proposal Creation",
+    "number": 2,
+    "description": "Develop a comprehensive proposal that outlines the project scope, including detailed descriptions of the required functionalities, design elements, and technical specifications. Provide an estimated timeline and cost breakdown, allowing the client to make informed decisions.",
+    "top_tag": "<div class=\"stg-row stg-bottom-gap stg-valign-middle stg-tp-row-reverse stg-m-bottom-gap-l\" data-unload=\"fade-right\">\r\n                    <div class=\"stg-col-3 stg-tp-col-6 stg-m-bottom-gap\" data-appear=\"fade-left\">",
+    "bottom_tag": "<div class=\"stg-col-3\"><!-- Empty Column --></div>"
+  }
+},
+{
+  "model": "services.serviceprocess",
+  "pk": 3,
+  "fields": {
+    "image": "service_process/landing-page-concept-with-people-office_23-2147776298.jpg",
+    "title": "Planning",
+    "number": 3,
+    "description": "Create a detailed project plan that includes defining project milestones, deliverables, and timelines. Develop a site map that outlines the structure and navigation of the website, and select the appropriate technology stack that best suits the project╞s needs and scalability.",
+    "top_tag": "<div class=\"stg-row stg-bottom-gap stg-valign-middle  stg-m-bottom-gap-l\" data-unload=\"fade-left\">\r\n                    <div class=\"stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap\" data-appear=\"fade-right\">",
+    "bottom_tag": "<p></p>"
+  }
+},
+{
+  "model": "services.serviceprocess",
+  "pk": 4,
+  "fields": {
+    "image": "service_process/colorful-web-design-concept-with-isometric-perspective_23-2147943644.jpg",
+    "title": "Design",
+    "number": 4,
+    "description": "Initiate the design phase by creating wireframes that represent the layout and user interface of the website. These wireframes are transformed into high-fidelity design mockups or interactive prototypes. Review these designs with the client, making necessary adjustments based on their feedback to ensure the final design meets their vision.",
+    "top_tag": "<div class=\"stg-row stg-bottom-gap stg-valign-middle stg-tp-row-reverse stg-m-bottom-gap-l\" data-unload=\"fade-right\">\r\n                    <div class=\"stg-col-3 stg-tp-col-6 stg-m-bottom-gap\" data-appear=\"fade-left\">",
+    "bottom_tag": "<div class=\"stg-col-3\"><!-- Empty Column --></div>"
+  }
+},
+{
+  "model": "services.serviceprocess",
+  "pk": 5,
+  "fields": {
+    "image": "service_process/flat-design-illustration-web-developers_23-2148817995.jpg",
+    "title": "Development",
+    "number": 5,
+    "description": "Begin the development phase by coding both the front-end and back-end components of the website. The front-end development focuses on creating a responsive and interactive user interface, while the back-end development involves setting up server-side components, databases, and APIs to support the website╞s functionality. Integrate the content provided by the client, including text, images, and multimedia.",
+    "top_tag": "<div class=\"stg-row stg-bottom-gap stg-valign-middle  stg-m-bottom-gap-l\" data-unload=\"fade-left\">\r\n                    <div class=\"stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap\" data-appear=\"fade-right\">",
+    "bottom_tag": "<p></p>"
+  }
+},
+{
+  "model": "services.serviceprocess",
+  "pk": 6,
+  "fields": {
+    "image": "service_process/software-code-testing-concept-illustration_114360-8414.jpg",
+    "title": "Testing",
+    "number": 6,
+    "description": "Conduct a thorough testing phase to ensure that all website features work as intended. This includes functionality testing, cross-browser and device compatibility checks, performance optimization, and security assessments. Address any issues identified during testing and make necessary improvements.",
+    "top_tag": "<div class=\"stg-row stg-bottom-gap stg-valign-middle stg-tp-row-reverse stg-m-bottom-gap-l\" data-unload=\"fade-right\">\r\n                    <div class=\"stg-col-3 stg-tp-col-6 stg-m-bottom-gap\" data-appear=\"fade-left\">",
+    "bottom_tag": "<div class=\"stg-col-3\"><!-- Empty Column --></div>"
+  }
+},
+{
+  "model": "services.serviceprocess",
+  "pk": 7,
+  "fields": {
+    "image": "service_process/yyyyyy.jpg",
+    "title": "Final Review and Deployment",
+    "number": 7,
+    "description": "Perform a final review with the client to confirm that the website meets their expectations. Once approved, deploy the website to the live server, ensuring a smooth transition from development to production.",
+    "top_tag": "<div class=\"stg-row stg-bottom-gap stg-valign-middle  stg-m-bottom-gap-l\" data-unload=\"fade-left\">\r\n                    <div class=\"stg-col-3 stg-offset-3 stg-tp-col-6 stg-m-bottom-gap\" data-appear=\"fade-right\">",
+    "bottom_tag": "<p></p>"
+  }
+},
+{
+  "model": "services.serviceprocess",
+  "pk": 8,
+  "fields": {
+    "image": "service_process/email-messagingemail-marketing-campaignworking-process-new-email-message_cRMYdJp.jpg",
+    "title": "Post-Launch Maintenance",
+    "number": 8,
+    "description": "Provide ongoing maintenance services to keep the website up-to-date and secure. This includes regular updates, bug fixes, performance monitoring, and addressing any issues that arise to ensure the website continues to function optimally.",
+    "top_tag": "<div class=\"stg-row stg-bottom-gap stg-valign-middle stg-tp-row-reverse stg-m-bottom-gap-l\" data-unload=\"fade-right\">\r\n                    <div class=\"stg-col-3 stg-tp-col-6 stg-m-bottom-gap\" data-appear=\"fade-left\">",
+    "bottom_tag": "<div class=\"stg-col-3\"><!-- Empty Column --></div>"
+  }
+},
+{
+  "model": "services.service",
+  "pk": 1,
+  "fields": {
+    "service_name": "Web Development",
+    "meta_title": "Professional Web Development Services | Pythoncoding4u",
+    "meta_description": "Get top-notch web development services from Pythoncoding4u. Our team of experts creates stunning, responsive, and user-friendly websites tailored to your business needs.",
+    "long_description": "At Pythoncoding4u, we specialize in providing high-quality web development services that help businesses establish a strong online presence. Our team of experienced developers is dedicated to creating websites that are not only visually appealing but also functional and user-friendly. Whether you need a simple landing page or a complex e-commerce platform, we have the expertise to deliver solutions that meet your specific requirements.\r\n<br> <br>\r\nOur web development services include custom website design, responsive web development, CMS integration, e-commerce solutions, and website maintenance. We use the latest technologies and best practices to ensure your website is fast, secure, and optimized for search engines.",
+    "image": "services/flat-web-development-concept-cms_23-2148809683.jpg",
+    "slug": "web-development",
+    "process": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "testmonials.testimonial",
+  "pk": 1,
+  "fields": {
+    "name": "Rahul Sharma",
+    "designation": "CEO of Tech Innovators",
+    "feedback": "Working with Pythoncoding4u was a game-changer for our business. Their team built a stunning website and a seamless mobile app that significantly boosted our online presence and user engagement. Their professionalism and attention to detail were evident from start to finish. We highly recommend their development services!",
+    "rating": 5
+  }
+},
+{
+  "model": "testmonials.testimonial",
+  "pk": 2,
+  "fields": {
+    "name": "Krishna Raut",
+    "designation": "CTO of Health Solutions",
+    "feedback": "Our collaboration with Pythoncoding4u on our mobile app was outstanding. The app they delivered was user-friendly, visually appealing, and met all our functional requirements. Their team was responsive and dedicated to ensuring our satisfaction. We couldn't be happier with the results.",
+    "rating": 5
+  }
+},
+{
+  "model": "BlogApp.blogcategory",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "description": "Explore the world of Python programming with our comprehensive tutorials, coding challenges, and practical examples. Whether you're a beginner or an advanced coder, our Python category offers a wealth of resources to help you master this versatile language. Learn the fundamentals, dive into advanced topics, and stay updated with the latest trends and techniques in Python development.",
+    "slug": "python"
+  }
+},
+{
+  "model": "BlogApp.steps",
+  "pk": 1,
+  "fields": {
+    "image": "blog_steps/Screenshot_75.png",
+    "title": "Download Python",
+    "description": "Open your web browser and go to the official Python website. Navigate to the Downloads section and choose the version of Python you want to install. Click on the download link for your operating system (Windows, macOS, or Linux).",
+    "code": ""
+  }
+},
+{
+  "model": "BlogApp.steps",
+  "pk": 2,
+  "fields": {
+    "image": "blog_steps/Screenshot_78.png",
+    "title": "Run the Installer",
+    "description": "Locate the downloaded installer file on your computer and double-click to run it. On the first screen, check the box to add Python to PATH. Click on \"Install Now\" to start the installation process.",
+    "code": ""
+  }
+},
+{
+  "model": "BlogApp.steps",
+  "pk": 3,
+  "fields": {
+    "image": "blog_steps/Screenshot_79.png",
+    "title": "Verify the Installation",
+    "description": "Open the command prompt (Windows) or terminal (macOS/Linux) and type python --version to verify the installation. You should see the installed Python version displayed.",
+    "code": ""
+  }
+},
+{
+  "model": "BlogApp.steps",
+  "pk": 4,
+  "fields": {
+    "image": "blog_steps/Screenshot_80.png",
+    "title": "Install an IDE",
+    "description": "Download and install an IDE such as PyCharm, Visual Studio Code, or Jupyter Notebook to write and run your Python code. Configure the IDE to use the installed Python interpreter.",
+    "code": ""
+  }
+},
+{
+  "model": "BlogApp.blogtable",
+  "pk": 1,
+  "fields": {
+    "meta_title": "How to Install Python on Your PC, Computer, Laptop, and System",
+    "meta_description": "A step-by-step guide on how to install Python on your PC, computer, laptop, and system. Follow these simple instructions to get Python up and running.",
+    "long_description": "Installing Python on your system is the first step towards exploring the world of programming with this versatile language. Whether you are using a PC, computer, laptop, or any other system, this guide will walk you through the installation process.",
+    "code": "# A simple Python script to verify the installation<br>\r\nprint(\"Hello, Python is successfully installed!\")",
+    "image": "blogs/How_to_Install_Python_on_Your_PC_Computer_Laptop_and_System_1.jpg",
+    "slug": "how-to-install-python",
+    "date_time": "2024-07-09T19:19:27.420Z",
+    "category": 1,
+    "conclusion": "By following these simple steps, you can install Python on your system and start your journey into the world of programming. Python's simplicity and versatility make it an excellent choice for beginners and experienced developers alike. Once installed, you can explore various libraries and frameworks that Python has to offer, making it a powerful tool for web development, data analysis, artificial intelligence, and more. Happy coding!",
+    "author": "codeAj",
+    "process": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}
+]
