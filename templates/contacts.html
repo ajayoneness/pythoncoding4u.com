@@ -156,27 +156,51 @@
                 <div class="stg-row stg-valign-middle stg-cta-with-image stg-tp-column-reverse">
                     <div class="stg-col-5" data-unload="fade-left">
                         <div class="bringer-offset-image" data-bg-src="img/cta/contact-section-bg.jpg" data-appear="fade-up" data-threshold="0.25"></div>
-                        <form action="https://demo.shadow-themes.com/html/bringer/mail.php" method="post" class="bringer-contact-form bringer-block" data-fill-error="Please, fill out the contact form." data-appear="fade-right" data-threshold="0.25">
+                        <!-- <form action="" method="post" class="bringer-contact-form bringer-block" data-fill-error="Please, fill out the contact form." data-appear="fade-right" data-threshold="0.25">
                             <div class="bringer-form-content">
-                                <!-- Field: Name -->
+                              
                                 <label for="name">Your Name</label>
                                 <input type="text" id="name" name="name" placeholder="Your Name" required>
-                                <!-- Field: Email -->
+                                
                                 <label for="email">Your Email</label>
                                 <input type="email" id="email" name="email" placeholder="email@example.com" required>  
                                 
                                 <label for="number">Your Phone No.</label>
                                 <input type="number" id="phone" name="phone" placeholder="+918603862290" required>    
                             
-                                <!-- Field: Message -->
+                              
                                 <label for="message">Your Message</label>
                                 <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                                <!-- Form Button -->
+                                
                                 <button type="submit" value="Send Message">Get a FREE Quote</button>
                                 <div class="bringer-contact-form__response"></div>
                             </div>
                             <span class="bringer-form-spinner"></span>
+                        </form> -->
+
+                        <form id="contactForm" class="bringer-contact-form bringer-block" method="post" action="{% url 'contact_form' %}" data-fill-error="Please, fill out the contact form." data-appear="fade-right" data-threshold="0.25">
+                            <div class="bringer-form-content">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="email@example.com" required>  
+                                
+                                <label for="phone">Your Phone No.</label>
+                                <input type="text" id="phone" name="phone" placeholder="+918603862290" required>    
+                                
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                                
+                                <button type="submit">Get a FREE Quote</button>
+                            </div>
+                            <div  id="responseMessage" ></div>
                         </form>
+                    
+
+
+
+
                     </div>
                     <div class="stg-col-6 stg-offset-1" data-unload="fade-right">
                         <div class="bringer-cta-form-content">
@@ -221,6 +245,57 @@
       
 
     {% include 'footer.html' %}
+
+    <script>
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        $(document).ready(function() {
+            $('#contactForm').on('submit', function(event) {
+                event.preventDefault();
+                
+                var form = $(this);
+                var formData = form.serialize();
+                var csrftoken = getCookie('csrftoken');
+                var submitButton = $('#submitButton');
+
+                submitButton.prop('disabled', true);
+
+                $.ajax({
+                    url: form.attr('action'),
+                    type: 'POST',
+                    data: formData,
+                    headers: { 'X-CSRFToken': csrftoken },
+                    success: function(data) {
+                        var responseMessage = $('#responseMessage');
+                        if (data.success) {
+                            responseMessage.html(data.message);
+                        } else {
+                            responseMessage.html(data.error);
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        $('#responseMessage').html('An error occurred: ' + error);
+                    },
+                    complete: function() {
+                        submitButton.prop('disabled', false);
+                    }
+                });
+            });
+        });
+    </script>
 
 
     <script>
