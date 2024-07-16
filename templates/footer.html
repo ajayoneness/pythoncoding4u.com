@@ -118,6 +118,120 @@
     <script src="{% static 'js/st-core.js' %}"></script>
     <script src="{% static 'js/classes.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
+
+
+
+
+    <script>
+
+
+        $("#closebtn").click(function(){
+            console.log("clicked")
+            $("#fulldisplay").css("display","none")
+        })
+
+        $("#getquote").click(function(){
+            $("#fulldisplay").css("display","block")
+        })
+
+
+
+    </script>
+
+
+<script>
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    $(document).ready(function() {
+        $('#contactForm').on('submit', function(event) {
+            event.preventDefault();
+            
+            var form = $(this);
+            var formData = form.serialize();
+            var csrftoken = getCookie('csrftoken');
+            var submitButton = $('#submitButton');
+
+            submitButton.prop('disabled', true);
+
+            $.ajax({
+                url: form.attr('action'),
+                type: 'POST',
+                data: formData,
+                headers: { 'X-CSRFToken': csrftoken },
+                success: function(data) {
+                    var responseMessage = $('#responseMessage');
+                    if (data.success) {
+                        responseMessage.html(data.message);
+                    } else {
+                        responseMessage.html(data.error);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    $('#responseMessage').html('An error occurred: ' + error);
+                },
+                complete: function() {
+                    submitButton.prop('disabled', false);
+                }
+            });
+        });
+
+
+
+
+// popupform submission
+        $('#contactForm1').on('submit', function(event) {
+            event.preventDefault();
+            
+            var form = $(this);
+            var formData = form.serialize();
+            var csrftoken = getCookie('csrftoken');
+            var submitButton = $('#submitButton1');
+
+            submitButton.prop('disabled', true);
+
+            $.ajax({
+                url: form.attr('action'),
+                type: 'POST',
+                data: formData,
+                headers: { 'X-CSRFToken': csrftoken },
+                success: function(data) {
+                    var responseMessage = $('#responseMessage1');
+                    if (data.success) {
+                        responseMessage.html(data.message);
+                    } else {
+                        responseMessage.html(data.error);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    $('#responseMessage1').html('An error occurred: ' + error);
+                },
+                complete: function() {
+                    submitButton.prop('disabled', false);
+                }
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
+
 </body>
 
 </html>

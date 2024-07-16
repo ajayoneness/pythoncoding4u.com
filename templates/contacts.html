@@ -190,9 +190,9 @@
                                 <input type="text" id="phone" name="phone" placeholder="+918603862290" required>    
                                 
                                 <label for="message">Your Message</label>
-                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                                <textarea id="message" name="message" placeholder="Your Message"  required></textarea>
                                 
-                                <button type="submit">Get a FREE Quote</button>
+                                <button id="submitButton" type="submit">Get a FREE Quote</button>
                             </div>
                             <div  id="responseMessage" ></div>
                         </form>
@@ -246,57 +246,7 @@
 
     {% include 'footer.html' %}
 
-    <script>
-        function getCookie(name) {
-            let cookieValue = null;
-            if (document.cookie && document.cookie !== '') {
-                const cookies = document.cookie.split(';');
-                for (let i = 0; i < cookies.length; i++) {
-                    const cookie = cookies[i].trim();
-                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
-                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-                        break;
-                    }
-                }
-            }
-            return cookieValue;
-        }
-
-        $(document).ready(function() {
-            $('#contactForm').on('submit', function(event) {
-                event.preventDefault();
-                
-                var form = $(this);
-                var formData = form.serialize();
-                var csrftoken = getCookie('csrftoken');
-                var submitButton = $('#submitButton');
-
-                submitButton.prop('disabled', true);
-
-                $.ajax({
-                    url: form.attr('action'),
-                    type: 'POST',
-                    data: formData,
-                    headers: { 'X-CSRFToken': csrftoken },
-                    success: function(data) {
-                        var responseMessage = $('#responseMessage');
-                        if (data.success) {
-                            responseMessage.html(data.message);
-                        } else {
-                            responseMessage.html(data.error);
-                        }
-                    },
-                    error: function(xhr, status, error) {
-                        $('#responseMessage').html('An error occurred: ' + error);
-                    },
-                    complete: function() {
-                        submitButton.prop('disabled', false);
-                    }
-                });
-            });
-        });
-    </script>
-
+   
 
     <script>
 
