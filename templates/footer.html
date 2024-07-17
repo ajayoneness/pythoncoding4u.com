@@ -76,14 +76,13 @@
                         </div>
                         <div class="stg-col-2 stg-tp-col-4 stg-m-col-4">
                             <div class="bringer-widget">
-                                <h6>Resources</h6>
+                                <h6>Contact Us</h6>
                                 <div class="bringer-menu-widget">
                                     <ul>
-                                        <li><a href="#">Pricing</a></li>
-                                        <li><a href="#">Help Center</a></li>
-                                        <li><a href="#">Our Services</a></li>
-                                        <li><a href="#">Terms of Use</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Whitefield, Bangalore</a></li>
+                                        <li><a href="mailto:pythoncoding4u@codeajay.in">pythoncoding4u@<br>codeajay.in</a></li>
+                                        <li><a href="tel:8603862290">+918603862290</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div><!-- .bringer-widget -->
@@ -95,7 +94,7 @@
             <!-- Footer Copyright Line -->
             <div class="bringer-footer-line stg-container">
                 <div class="align-center">
-                    Copyright &copy; 2024. All Rights Reserved.
+                    Copyright &copy; 2024. All Rights Reserved to <a href="https://codeajay.in">codeAj</a>.
                 </div>
             </div><!-- bringer-footer-line -->
         </footer>
@@ -119,6 +118,120 @@
     <script src="{% static 'js/st-core.js' %}"></script>
     <script src="{% static 'js/classes.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
+
+
+
+
+    <script>
+
+
+        $("#closebtn").click(function(){
+            console.log("clicked")
+            $("#fulldisplay").css("display","none")
+        })
+
+        $("#getquote").click(function(){
+            $("#fulldisplay").css("display","block")
+        })
+
+
+
+    </script>
+
+
+<script>
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    $(document).ready(function() {
+        $('#contactForm').on('submit', function(event) {
+            event.preventDefault();
+            
+            var form = $(this);
+            var formData = form.serialize();
+            var csrftoken = getCookie('csrftoken');
+            var submitButton = $('#submitButton');
+
+            submitButton.prop('disabled', true);
+
+            $.ajax({
+                url: form.attr('action'),
+                type: 'POST',
+                data: formData,
+                headers: { 'X-CSRFToken': csrftoken },
+                success: function(data) {
+                    var responseMessage = $('#responseMessage');
+                    if (data.success) {
+                        responseMessage.html(data.message);
+                    } else {
+                        responseMessage.html(data.error);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    $('#responseMessage').html('An error occurred: ' + error);
+                },
+                complete: function() {
+                    submitButton.prop('disabled', false);
+                }
+            });
+        });
+
+
+
+
+// popupform submission
+        $('#contactForm1').on('submit', function(event) {
+            event.preventDefault();
+            
+            var form = $(this);
+            var formData = form.serialize();
+            var csrftoken = getCookie('csrftoken');
+            var submitButton = $('#submitButton1');
+
+            submitButton.prop('disabled', true);
+
+            $.ajax({
+                url: form.attr('action'),
+                type: 'POST',
+                data: formData,
+                headers: { 'X-CSRFToken': csrftoken },
+                success: function(data) {
+                    var responseMessage = $('#responseMessage1');
+                    if (data.success) {
+                        responseMessage.html(data.message);
+                    } else {
+                        responseMessage.html(data.error);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    $('#responseMessage1').html('An error occurred: ' + error);
+                },
+                complete: function() {
+                    submitButton.prop('disabled', false);
+                }
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
+
 </body>
 
 </html>

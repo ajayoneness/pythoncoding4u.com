@@ -39,3 +39,23 @@ def singleProject(request, slug):
 
 
 
+def singleprojectapi(request,slug):
+    projectDetails = get_object_or_404(Project, slug=slug)
+    data={
+                'category': projectDetails.category.name,
+                'meta_title': projectDetails.meta_title,
+                'meta_description': projectDetails.meta_description,
+                'long_description': projectDetails.long_description,
+                'features': [feature.title for feature in projectDetails.features.all()],
+                'applications': [application.title for application in projectDetails.Applications.all()],
+                'youtube_link': projectDetails.youtube_link,
+                'image_one': projectDetails.image_one.url if projectDetails.image_one else None,
+                'image_two': projectDetails.image_two.url if projectDetails.image_two else None,
+                'image_three': projectDetails.image_three.url if projectDetails.image_three else None,
+                'slug': projectDetails.slug,
+            }
+    return JsonResponse(data, safe=False)
+
+
+
+

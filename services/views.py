@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 from django.http import JsonResponse
 from .models import Service
 
@@ -35,9 +35,12 @@ def service_list(request):
     
 
 
+
 def singleservice(request,slug):
-    print(slug)
-    return render(request,'service-details.html')
+
+    serviceDEtails = get_object_or_404(Service, slug=slug)
+    print(serviceDEtails)
+    return render(request, 'service-details.html',{"services" : serviceDEtails})
 
 
 
