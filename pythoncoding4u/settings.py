@@ -90,24 +90,24 @@ DBBACKUP_STORAGE_OPTIONS = {'location': os.path.join(BASE_DIR,'backup')}
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-# postgresql
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'koyebdb',
-#         'USER': 'koyeb-pythoncoding',
-#         'PASSWORD': 'ZG9VJKQxcow6',
-#         'HOST': 'ep-morning-queen-a2ggxu5e.eu-central-1.pg.koyeb.app',
-#         'OPTIONS': {'sslmode': 'require'},
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
+# postgresql
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'koyebdb',
+        'USER': 'koyeb-adm',
+        'PASSWORD': 'LG3VC1EHTSaZ',
+        'HOST': 'ep-mute-bar-a27a8fv3.eu-central-1.pg.koyeb.app',
+        'OPTIONS': {'sslmode': 'require'},
+    }
+}
 
 
 # Password validation
